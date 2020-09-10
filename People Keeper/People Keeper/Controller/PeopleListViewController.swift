@@ -87,22 +87,37 @@ class PeopleListViewController: UITableViewController {
   
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
+    
+    becomeFirstResponder()
   }
   
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
+    
+    resignFirstResponder()
+  }
+  
+  override var canBecomeFirstResponder: Bool {
+    true
   }
   
   @objc func redoTapped() {
-    
+    undoManager.redo()
   }
   
   @objc func undoTapped() {
-    
+    undoManager.undo()
   }
   
   @objc func addPersonTapped() {
+    tagNumber += 1
     
+    let person = Person(name: "", face: (hairColor: .black, hairLength: .bald, eyeColor: .black, facialHair: [], glasses: false), likes: [], dislikes: [], tag: tagNumber)
+    modifyModel { peopleModel in
+      peopleModel.people += [person]
+    }
+    tableView.selectRow(at: IndexPath(item: peopleModel.people.count - 1, section: 0), animated: true, scrollPosition: .bottom)
+    showPersonDetails(at: IndexPath(item: peopleModel.people.count - 1, section: 0))
   }
 }
 
@@ -136,7 +151,9 @@ extension PeopleListViewController {
   
   override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
     let delete = UITableViewRowAction(style: .default, title: "Delete") { action, index in
-      // PLACEHOLDER: Perform deletion
+      self.modifyModel { peopleModel in
+        peopleModel.people.remove(at: indexPath.row)
+      }
     }
     return [delete]
   }
@@ -164,5 +181,54 @@ extension PeopleListViewController {
     let detailViewController = segue.destination as? PersonDetailViewController
     let person = peopleModel.people[selectedIndex]
     detailViewController?.setPerson(person)
+    detailViewController?.personDidChange = { updatedPerson in
+      self.modifyModel { peopleModel in
+        peopleModel.people[selectedIndex] = updatedPerson
+      }
+    }
+  }
+}
+
+extension PeopleListViewController {
+  private func modifyModel(_ mutations: (inout PeopleModel) -> Void) {
+    var peopleModel = self.peopleModel
+    let oldModel = peopleModel
+    mutations(&peopleModel)
+    
+    tableView.beginUpdates()
+    let modelDiff = oldModel.diffed(with: peopleModel)
+    peopleModelDidChange(diff: modelDiff)
+    tableView.endUpdates()
+  }
+  
+  private func peopleModelDidChange(diff: PeopleModel.Diff) {
+    switch diff.peopleChange {
+    case .inserted(let person):
+      if let index = diff.to.people.firstIndex(of: person) {
+        tableView.insertRows(at: [IndexPath(item: index, section: 0)], with: .automatic)
+      }
+    case .removed(let person):
+      if let index = diff.from.people.firstIndex(of: person) {
+        tableView.deleteRows(at: [IndexPath(item: index, section: 0)], with: .automatic)
+      }
+    case .updated(let person):
+      if let index = diff.to.people.firstIndex(of: person) {
+        tableView.reloadRows(at: [IndexPath(item: index, section: 0)], with: .automatic)
+      }
+    default:
+      return
+    }
+    peopleModel = diff.to
+    
+    undoManager.registerUndo(withTarget: self) { target in
+      target.modifyModel { model in
+        model = diff.from
+      }
+      
+      DispatchQueue.main.async {
+        self.undoButton.isEnabled = self.undoManager.canUndo
+        self.redoButton.isEnabled = self.undoManager.canRedo
+      }
+    }
   }
 }

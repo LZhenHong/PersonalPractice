@@ -31,6 +31,8 @@ import UIKit
 
 class PersonDetailViewController: UICollectionViewController {
   
+  var personDidChange: ((Person) -> Void)?
+  
   // MARK: - Properties
   
   // `person`'s properties serve as the collection view's data model.
@@ -139,6 +141,8 @@ class PersonDetailViewController: UICollectionViewController {
     view.endEditing(true)
     
     resignFirstResponder()
+    
+    personDidChange?(person)
   }
   
   override var canBecomeFirstResponder: Bool {
@@ -285,28 +289,28 @@ extension PersonDetailViewController {
   }
   
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    let fromPerson: Person = person
-    switch Section(at: indexPath) {
-    case .hairColor:
-      person.face.hairColor = Person.HairColor.allCases[indexPath.row]
-    case .hairLength:
-      person.face.hairLength = Person.HairLength.allCases[indexPath.row]
-    case .eyeColor:
-      person.face.eyeColor = Person.EyeColor.allCases[indexPath.row]
-    case .glasses:
-      person.face.glasses = true
-    case .facialHair:
-      person.face.facialHair.insert(Person.FacialHair.allCases[indexPath.row])
-    case .likes:
-      person.likes.insert(Person.Topic.allCases[indexPath.row])
-      person.dislikes.remove(Person.Topic.allCases[indexPath.row])
-    case .dislikes:
-      person.likes.remove(Person.Topic.allCases[indexPath.row])
-      person.dislikes.insert(Person.Topic.allCases[indexPath.row])
-    default:
-      break
+    modifyPerson { person in
+      switch Section(at: indexPath) {
+      case .hairColor:
+        person.face.hairColor = Person.HairColor.allCases[indexPath.row]
+      case .hairLength:
+        person.face.hairLength = Person.HairLength.allCases[indexPath.row]
+      case .eyeColor:
+        person.face.eyeColor = Person.EyeColor.allCases[indexPath.row]
+      case .glasses:
+        person.face.glasses = true
+      case .facialHair:
+        person.face.facialHair.insert(Person.FacialHair.allCases[indexPath.row])
+      case .likes:
+        person.likes.insert(Person.Topic.allCases[indexPath.row])
+        person.dislikes.remove(Person.Topic.allCases[indexPath.row])
+      case .dislikes:
+        person.likes.remove(Person.Topic.allCases[indexPath.row])
+        person.dislikes.insert(Person.Topic.allCases[indexPath.row])
+      default:
+        break
+      }
     }
-    personDidChange(from: fromPerson)
   }
   
   override func collectionView(_ collectionView: UICollectionView, shouldDeselectItemAt indexPath: IndexPath) -> Bool {
@@ -319,20 +323,20 @@ extension PersonDetailViewController {
   }
   
   override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-    let fromPerson: Person = person
-    switch Section(at: indexPath) {
-    case .facialHair:
-      person.face.facialHair.subtract([Person.FacialHair.allCases[indexPath.row]])
-    case .likes:
-      person.likes.subtract([Person.Topic.allCases[indexPath.row]])
-    case .dislikes:
-      person.dislikes.subtract([Person.Topic.allCases[indexPath.row]])
-    case .glasses:
-      person.face.glasses = false
-    default:
-      break
+    modifyPerson { person in
+      switch Section(at: indexPath) {
+      case .facialHair:
+        person.face.facialHair.subtract([Person.FacialHair.allCases[indexPath.row]])
+      case .likes:
+        person.likes.subtract([Person.Topic.allCases[indexPath.row]])
+      case .dislikes:
+        person.dislikes.subtract([Person.Topic.allCases[indexPath.row]])
+      case .glasses:
+        person.face.glasses = false
+      default:
+        break
+      }
     }
-    personDidChange(from: fromPerson)
   }
 }
 
@@ -368,21 +372,39 @@ extension PersonDetailViewController: UITextFieldDelegate {
     textField.resignFirstResponder()
     return true
   }
+  
+  func textFieldDidEndEditing(_ textField: UITextField) {
+    if let text = textField.text {
+      let fromPerson: Person = person
+      person.name = text
+      personDidChange(diff: fromPerson.diffed(with: person))
+    }
+  }
 }
 
 // MARK: - Model & State Types
 extension PersonDetailViewController {
   
-  private func personDidChange(from fromPerson: Person) {
+  private func modifyPerson(_ mutatePerson: (inout Person) -> Void) {
+    var person: Person = self.person
+    let oldPerson = person
+    mutatePerson(&person)
+    let personDiff = oldPerson.diffed(with: person)
+    personDidChange(diff: personDiff)
+  }
+  
+  private func personDidChange(diff: Person.Diff) {
+    guard diff.hasChanges else {
+      return
+    }
+    
+    person = diff.to
     collectionView?.reloadData()
     
     undoManager.registerUndo(withTarget: self) { target in
-      print(fromPerson.face.hairColor)
-      print(self.person.face.hairColor)
-      
-      let currentFromPerson: Person = self.person
-      self.person = fromPerson
-      self.personDidChange(from: currentFromPerson)
+      target.modifyPerson { person in
+        person = diff.from
+      }
     }
     
     DispatchQueue.main.async {

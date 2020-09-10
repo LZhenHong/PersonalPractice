@@ -35,7 +35,7 @@
 
 import UIKit
 
-class PeopleModel {
+struct PeopleModel {
     
   // MARK: Property
   var people: [Person]
@@ -52,5 +52,57 @@ class PeopleModel {
       Person(name: "Joan", face: (hairColor: .gray, hairLength: .short, eyeColor: .black, facialHair: [], glasses: false), likes: [.cars, .politics], dislikes: [.sports, .fashion], tag: 2),
       Person(name: "Sam", face: (hairColor: .blonde, hairLength: .long, eyeColor: .brown, facialHair: [.mustache], glasses: false), likes: [.music, .family, .fashion, .movies, .books], dislikes: [], tag: 3)
       ])
+  }
+  
+  struct Diff {
+    enum PeopleChange {
+      case inserted(Person)
+      case removed(Person)
+      case updated(Person)
+      case none
+    }
+    
+    let peopleChange: PeopleChange
+    let from: PeopleModel
+    let to: PeopleModel
+    
+    fileprivate init(peopleChange: PeopleChange, from: PeopleModel, to: PeopleModel) {
+      self.peopleChange = peopleChange
+      self.from = from
+      self.to = to
+    }
+  }
+  
+  func changedPerson(in other: PeopleModel) -> Person? {
+    if people.count != other.people.count {
+      let largerArray = other.people.count > people.count ? other.people : people
+      let smallerArray = other.people == largerArray ? people : other.people
+      return largerArray.first { firstPeople -> Bool in
+        !smallerArray.contains(where: { secondPeople -> Bool in
+          firstPeople.tag == secondPeople.tag
+        })
+      }
+    } else {
+      return other.people.enumerated().compactMap({ index, person in
+        if person != people[index] {
+          return person
+        }
+        return nil
+        }).first
+    }
+  }
+  
+  func diffed(with other: PeopleModel) -> Diff {
+    var peopleChange: Diff.PeopleChange = .none
+    if let changedPerson = changedPerson(in: other) {
+      if other.people.count > people.count {
+        peopleChange = .inserted(changedPerson)
+      } else if other.people.count < people.count {
+        peopleChange = .removed(changedPerson)
+      } else {
+        peopleChange = .updated(changedPerson)
+      }
+    }
+    return Diff(peopleChange: peopleChange, from: self, to: other)
   }
 }

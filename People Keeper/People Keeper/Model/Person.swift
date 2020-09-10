@@ -33,7 +33,7 @@
 
 import UIKit
 
-class Person {
+struct Person {
   
   // MARK: - Properties
   var name: String
@@ -49,6 +49,10 @@ class Person {
     self.likes = likes
     self.dislikes = dislikes
     self.tag = tag
+  }
+  
+  func diffed(with other: Person) -> Diff {
+    return Diff(from: self, to: other)
   }
   
   // MARK: - Types
@@ -92,6 +96,30 @@ class Person {
     case cars = "cars"
     case comedy = "comedy"
     
+  }
+  
+  struct Diff {
+    let from: Person
+    let to: Person
+    
+    fileprivate init(from: Person, to: Person) {
+      self.from = from
+      self.to = to
+    }
+    
+    var hasChanges: Bool {
+      return from != to
+    }
+  }
+  
+}
+
+extension Person: Equatable {
+  static func ==(_ firstPerson: Person, _ secondPerson: Person) -> Bool {
+    return firstPerson.name == secondPerson.name &&
+      firstPerson.face == secondPerson.face &&
+      firstPerson.likes == secondPerson.likes &&
+      firstPerson.dislikes == secondPerson.dislikes
   }
 }
 
