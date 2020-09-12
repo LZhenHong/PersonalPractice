@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34155B50250CA0530074893C /* ValueTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34155B4F250CA0530074893C /* ValueTestViewController.m */; };
 		349EEFC1250B5FFD0011977F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349EEFC0250B5FFD0011977F /* AppDelegate.m */; };
 		349EEFC4250B5FFD0011977F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349EEFC3250B5FFD0011977F /* SceneDelegate.m */; };
 		349EEFC7250B5FFD0011977F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349EEFC6250B5FFD0011977F /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34155B4E250CA0530074893C /* ValueTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueTestViewController.h; sourceTree = "<group>"; };
+		34155B4F250CA0530074893C /* ValueTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueTestViewController.m; sourceTree = "<group>"; };
 		349EEFBC250B5FFD0011977F /* NSUndoManagerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUndoManagerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349EEFBF250B5FFD0011977F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		349EEFC0250B5FFD0011977F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				349EEFC3250B5FFD0011977F /* SceneDelegate.m */,
 				349EEFC5250B5FFD0011977F /* ViewController.h */,
 				349EEFC6250B5FFD0011977F /* ViewController.m */,
+				34155B4E250CA0530074893C /* ValueTestViewController.h */,
+				34155B4F250CA0530074893C /* ValueTestViewController.m */,
 				349EEFC8250B5FFD0011977F /* Main.storyboard */,
 				349EEFCB250B5FFE0011977F /* Assets.xcassets */,
 				349EEFCD250B5FFE0011977F /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34155B50250CA0530074893C /* ValueTestViewController.m in Sources */,
 				349EEFC7250B5FFD0011977F /* ViewController.m in Sources */,
 				349EEFC1250B5FFD0011977F /* AppDelegate.m in Sources */,
 				349EEFD2250B5FFE0011977F /* main.m in Sources */,
