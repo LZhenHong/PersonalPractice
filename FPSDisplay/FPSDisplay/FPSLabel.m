@@ -80,14 +80,13 @@
         return;
     }
     
-
     float fps = self.count / delta;
     [self setText:[NSString stringWithFormat:@"%d FPS", (int)round(fps)]];
     
     CGFloat progress = fps / 60.0;
     UIColor *color = [UIColor colorWithHue:0.27 * (progress - 0.2) saturation:1 brightness:0.9 alpha:1];
     [self setTextColor:color];
-
+    
     self.count = 0;
     self.lastTimestamp = link.timestamp;
 }
