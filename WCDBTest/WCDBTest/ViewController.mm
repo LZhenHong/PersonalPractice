@@ -177,7 +177,7 @@ static NSString *kMessageTable = @"message";
 - (IBAction)testMintor {
     // Error Monitor
     [WCTStatistics SetGlobalErrorReport:^(WCTError *error) {
-        NSLog(@"[WCDB] error happened: %@", error.localizedDescription);
+        NSLog(@"[WCDB] error happened: %@", error);
     }];
     
     // Performance Monitor
@@ -219,6 +219,17 @@ static NSString *kMessageTable = @"message";
                               databaseCipher:password];
         }];
     });
+}
+
+- (IBAction)testAutoIncrement {
+    Message *msg = [[Message alloc] init];
+    msg.isAutoIncrement = YES;
+    msg.localID = 5;
+    msg.content = @"Test auto increment";
+    msg.createTime = [NSDate date];
+    msg.modifiedTime = [NSDate date];
+    
+    [self.database insertObject:msg into:kMessageTable];
 }
 
 @end
