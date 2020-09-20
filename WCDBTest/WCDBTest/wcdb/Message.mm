@@ -14,7 +14,7 @@ WCDB_IMPLEMENTATION(Message)
 
 // 使用 WCDB_SYNTHESIZE 宏在类文件定义需要绑定到数据库表的字段
 WCDB_SYNTHESIZE(Message, localID)
-WCDB_SYNTHESIZE(Message, content)
+WCDB_SYNTHESIZE_DEFAULT(Message, content, @"")
 WCDB_SYNTHESIZE(Message, createTime)
 WCDB_SYNTHESIZE(Message, modifiedTime)
 
