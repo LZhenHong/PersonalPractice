@@ -1,0 +1,3264 @@
+[
+  {
+    "country": "Algeria",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 42228408,
+    "year": 2018
+  },
+  {
+    "country": "Algeria",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 43053054,
+    "year": 2019
+  },
+  {
+    "country": "Angola",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 30809787,
+    "year": 2018
+  },
+  {
+    "country": "Angola",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 31825295,
+    "year": 2019
+  },
+  {
+    "country": "Benin",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 11485044,
+    "year": 2018
+  },
+  {
+    "country": "Benin",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 11801151,
+    "year": 2019
+  },
+  {
+    "country": "Botswana",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2254068,
+    "year": 2018
+  },
+  {
+    "country": "Botswana",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2303697,
+    "year": 2019
+  },
+  {
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 19751466,
+    "year": 2018
+  },
+  {
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 20321378,
+    "year": 2019
+  },
+  {
+    "country": "Burundi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 10524117,
+    "year": 2018
+  },
+  {
+    "country": "Burundi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 10864245,
+    "year": 2019
+  },
+  {
+    "country": "Cameroon",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 25216267,
+    "year": 2018
+  },
+  {
+    "country": "Cameroon",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 25876380,
+    "year": 2019
+  },
+  {
+    "country": "Cape Verde",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 543767,
+    "year": 2018
+  },
+  {
+    "country": "Cape Verde",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 549935,
+    "year": 2019
+  },
+  {
+    "country": "Central African Republic",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 4666368,
+    "year": 2018
+  },
+  {
+    "country": "Central African Republic",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 4745185,
+    "year": 2019
+  },
+  {
+    "country": "Chad",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 15477729,
+    "year": 2018
+  },
+  {
+    "country": "Chad",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 15946876,
+    "year": 2019
+  },
+  {
+    "country": "Comoros",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 832322,
+    "year": 2018
+  },
+  {
+    "country": "Comoros",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 850886,
+    "year": 2019
+  },
+  {
+    "country": "Congo",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 5244359,
+    "year": 2018
+  },
+  {
+    "country": "Congo",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 5380508,
+    "year": 2019
+  },
+  {
+    "country": "Djibouti",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 958923,
+    "year": 2018
+  },
+  {
+    "country": "Djibouti",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 973560,
+    "year": 2019
+  },
+  {
+    "country": "DR Congo",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 84068091,
+    "year": 2018
+  },
+  {
+    "country": "DR Congo",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 86790567,
+    "year": 2019
+  },
+  {
+    "country": "Egypt",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 98423598,
+    "year": 2018
+  },
+  {
+    "country": "Egypt",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 100388073,
+    "year": 2019
+  },
+  {
+    "country": "Equatorial Guinea",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 1308975,
+    "year": 2018
+  },
+  {
+    "country": "Equatorial Guinea",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 1355986,
+    "year": 2019
+  },
+  {
+    "country": "Eritrea",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 3452786,
+    "year": 2018
+  },
+  {
+    "country": "Eritrea",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 3497117,
+    "year": 2019
+  },
+  {
+    "country": "Eswatini",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 1136281,
+    "year": 2018
+  },
+  {
+    "country": "Eswatini",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 1148130,
+    "year": 2019
+  },
+  {
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 109224414,
+    "year": 2018
+  },
+  {
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 112078730,
+    "year": 2019
+  },
+  {
+    "country": "Gabon",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 2119275,
+    "year": 2018
+  },
+  {
+    "country": "Gabon",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 2172579,
+    "year": 2019
+  },
+  {
+    "country": "Gambia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 2280094,
+    "year": 2018
+  },
+  {
+    "country": "Gambia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 2347706,
+    "year": 2019
+  },
+  {
+    "country": "Ghana",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 28206728,
+    "year": 2018
+  },
+  {
+    "country": "Ghana",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 28833629,
+    "year": 2019
+  },
+  {
+    "country": "Guinea",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 12414293,
+    "year": 2018
+  },
+  {
+    "country": "Guinea",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 12771246,
+    "year": 2019
+  },
+  {
+    "country": "Guinea-Bissau",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 1874303,
+    "year": 2018
+  },
+  {
+    "country": "Guinea-Bissau",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 1920922,
+    "year": 2019
+  },
+  {
+    "country": "Ivory Coast",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 25069230,
+    "year": 2018
+  },
+  {
+    "country": "Ivory Coast",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 25716544,
+    "year": 2019
+  },
+  {
+    "country": "Kenya",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 51392565,
+    "year": 2018
+  },
+  {
+    "country": "Kenya",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 52573973,
+    "year": 2019
+  },
+  {
+    "country": "Lesotho",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2108328,
+    "year": 2018
+  },
+  {
+    "country": "Lesotho",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2125268,
+    "year": 2019
+  },
+  {
+    "country": "Liberia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 4818973,
+    "year": 2018
+  },
+  {
+    "country": "Liberia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 4937374,
+    "year": 2019
+  },
+  {
+    "country": "Libya",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 6678559,
+    "year": 2018
+  },
+  {
+    "country": "Libya",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 6777452,
+    "year": 2019
+  },
+  {
+    "country": "Madagascar",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 26262313,
+    "year": 2018
+  },
+  {
+    "country": "Madagascar",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 26969307,
+    "year": 2019
+  },
+  {
+    "country": "Malawi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 18143217,
+    "year": 2018
+  },
+  {
+    "country": "Malawi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 18628747,
+    "year": 2019
+  },
+  {
+    "country": "Mali",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 19077749,
+    "year": 2018
+  },
+  {
+    "country": "Mali",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 19658031,
+    "year": 2019
+  },
+  {
+    "country": "Mauritania",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 4403313,
+    "year": 2018
+  },
+  {
+    "country": "Mauritania",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 4525696,
+    "year": 2019
+  },
+  {
+    "country": "Mauritius",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 1189265,
+    "year": 2018
+  },
+  {
+    "country": "Mauritius",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 1198575,
+    "year": 2019
+  },
+  {
+    "country": "Mayotte",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 259531,
+    "year": 2018
+  },
+  {
+    "country": "Mayotte",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 266150,
+    "year": 2019
+  },
+  {
+    "country": "Morocco",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 36029093,
+    "year": 2018
+  },
+  {
+    "country": "Morocco",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 36471769,
+    "year": 2019
+  },
+  {
+    "country": "Mozambique",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 29496004,
+    "year": 2018
+  },
+  {
+    "country": "Mozambique",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 30366036,
+    "year": 2019
+  },
+  {
+    "country": "Namibia",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2448301,
+    "year": 2018
+  },
+  {
+    "country": "Namibia",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 2494530,
+    "year": 2019
+  },
+  {
+    "country": "Niger",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 22442822,
+    "year": 2018
+  },
+  {
+    "country": "Niger",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 23310715,
+    "year": 2019
+  },
+  {
+    "country": "Nigeria",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 195874683,
+    "year": 2018
+  },
+  {
+    "country": "Nigeria",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 200963599,
+    "year": 2019
+  },
+  {
+    "country": "Runion",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 882526,
+    "year": 2018
+  },
+  {
+    "country": "Runion",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 888927,
+    "year": 2019
+  },
+  {
+    "country": "Rwanda",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 12301970,
+    "year": 2018
+  },
+  {
+    "country": "Rwanda",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 12626950,
+    "year": 2019
+  },
+  {
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 6035,
+    "year": 2018
+  },
+  {
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 6059,
+    "year": 2019
+  },
+  {
+    "country": "Senegal",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 15854323,
+    "year": 2018
+  },
+  {
+    "country": "Senegal",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 16296364,
+    "year": 2019
+  },
+  {
+    "country": "Seychelles",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 97096,
+    "year": 2018
+  },
+  {
+    "country": "Seychelles",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 97739,
+    "year": 2019
+  },
+  {
+    "country": "Sierra Leone",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 7650150,
+    "year": 2018
+  },
+  {
+    "country": "Sierra Leone",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 7813215,
+    "year": 2019
+  },
+  {
+    "country": "So Tom and Prncipe",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 211028,
+    "year": 2018
+  },
+  {
+    "country": "So Tom and Prncipe",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "population": 215056,
+    "year": 2019
+  },
+  {
+    "country": "Somalia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 15008226,
+    "year": 2018
+  },
+  {
+    "country": "Somalia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 15442905,
+    "year": 2019
+  },
+  {
+    "country": "South Africa",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 57792518,
+    "year": 2018
+  },
+  {
+    "country": "South Africa",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "population": 58558270,
+    "year": 2019
+  },
+  {
+    "country": "South Sudan",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 10975927,
+    "year": 2018
+  },
+  {
+    "country": "South Sudan",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 11062113,
+    "year": 2019
+  },
+  {
+    "country": "Sudan",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 41801533,
+    "year": 2018
+  },
+  {
+    "country": "Sudan",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 42813238,
+    "year": 2019
+  },
+  {
+    "country": "Tanzania",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 56313438,
+    "year": 2018
+  },
+  {
+    "country": "Tanzania",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 58005463,
+    "year": 2019
+  },
+  {
+    "country": "Togo",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 7889093,
+    "year": 2018
+  },
+  {
+    "country": "Togo",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "population": 8082366,
+    "year": 2019
+  },
+  {
+    "country": "Tunisia",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 11565201,
+    "year": 2018
+  },
+  {
+    "country": "Tunisia",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 11694719,
+    "year": 2019
+  },
+  {
+    "country": "Uganda",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 42729036,
+    "year": 2018
+  },
+  {
+    "country": "Uganda",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 44269594,
+    "year": 2019
+  },
+  {
+    "country": "Western Sahara",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 567402,
+    "year": 2018
+  },
+  {
+    "country": "Western Sahara",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "population": 582463,
+    "year": 2019
+  },
+  {
+    "country": "Zambia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 17351708,
+    "year": 2018
+  },
+  {
+    "country": "Zambia",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 17861030,
+    "year": 2019
+  },
+  {
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 14438802,
+    "year": 2018
+  },
+  {
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "population": 14645468,
+    "year": 2019
+  },
+  {
+    "country": "Anguilla",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 14731,
+    "year": 2018
+  },
+  {
+    "country": "Anguilla",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 14869,
+    "year": 2019
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 96286,
+    "year": 2018
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 97118,
+    "year": 2019
+  },
+  {
+    "country": "Argentina",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 44361150,
+    "year": 2018
+  },
+  {
+    "country": "Argentina",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 44780677,
+    "year": 2019
+  },
+  {
+    "country": "Aruba",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 105845,
+    "year": 2018
+  },
+  {
+    "country": "Aruba",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 106314,
+    "year": 2019
+  },
+  {
+    "country": "Bahamas",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 385637,
+    "year": 2018
+  },
+  {
+    "country": "Bahamas",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 389482,
+    "year": 2019
+  },
+  {
+    "country": "Barbados",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 286641,
+    "year": 2018
+  },
+  {
+    "country": "Barbados",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 287025,
+    "year": 2019
+  },
+  {
+    "country": "Belize",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 383071,
+    "year": 2018
+  },
+  {
+    "country": "Belize",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 390353,
+    "year": 2019
+  },
+  {
+    "country": "Bermuda",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 62756,
+    "year": 2018
+  },
+  {
+    "country": "Bermuda",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 62506,
+    "year": 2019
+  },
+  {
+    "country": "Bolivia",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 11353142,
+    "year": 2018
+  },
+  {
+    "country": "Bolivia",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 11513100,
+    "year": 2019
+  },
+  {
+    "country": "Brazil",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 209469323,
+    "year": 2018
+  },
+  {
+    "country": "Brazil",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 211049527,
+    "year": 2019
+  },
+  {
+    "country": "British Virgin Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 29802,
+    "year": 2018
+  },
+  {
+    "country": "British Virgin Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 30030,
+    "year": 2019
+  },
+  {
+    "country": "Canada",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 37074562,
+    "year": 2018
+  },
+  {
+    "country": "Canada",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 37411047,
+    "year": 2019
+  },
+  {
+    "country": "Caribbean Netherlands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 25711,
+    "year": 2018
+  },
+  {
+    "country": "Caribbean Netherlands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 25979,
+    "year": 2019
+  },
+  {
+    "country": "Cayman Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 64174,
+    "year": 2018
+  },
+  {
+    "country": "Cayman Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 64948,
+    "year": 2019
+  },
+  {
+    "country": "Chile",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 18729160,
+    "year": 2018
+  },
+  {
+    "country": "Chile",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 18952038,
+    "year": 2019
+  },
+  {
+    "country": "Colombia",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 49661048,
+    "year": 2018
+  },
+  {
+    "country": "Colombia",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 50339443,
+    "year": 2019
+  },
+  {
+    "country": "Costa Rica",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 4999441,
+    "year": 2018
+  },
+  {
+    "country": "Costa Rica",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 5047561,
+    "year": 2019
+  },
+  {
+    "country": "Cuba",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 11338134,
+    "year": 2018
+  },
+  {
+    "country": "Cuba",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 11333483,
+    "year": 2019
+  },
+  {
+    "country": "Curaao",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 162752,
+    "year": 2018
+  },
+  {
+    "country": "Curaao",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 163424,
+    "year": 2019
+  },
+  {
+    "country": "Dominica",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 71625,
+    "year": 2018
+  },
+  {
+    "country": "Dominica",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 71808,
+    "year": 2019
+  },
+  {
+    "country": "Dominican Republic",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 10627141,
+    "year": 2018
+  },
+  {
+    "country": "Dominican Republic",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 10738958,
+    "year": 2019
+  },
+  {
+    "country": "Ecuador",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 17084358,
+    "year": 2018
+  },
+  {
+    "country": "Ecuador",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 17373662,
+    "year": 2019
+  },
+  {
+    "country": "El Salvador",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 6420746,
+    "year": 2018
+  },
+  {
+    "country": "El Salvador",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 6453553,
+    "year": 2019
+  },
+  {
+    "country": "Falkland Islands",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 3234,
+    "year": 2018
+  },
+  {
+    "country": "Falkland Islands",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 3377,
+    "year": 2019
+  },
+  {
+    "country": "French Guiana",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 275713,
+    "year": 2018
+  },
+  {
+    "country": "French Guiana",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 282731,
+    "year": 2019
+  },
+  {
+    "country": "Greenland",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 56564,
+    "year": 2018
+  },
+  {
+    "country": "Greenland",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 56672,
+    "year": 2019
+  },
+  {
+    "country": "Grenada",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 111454,
+    "year": 2018
+  },
+  {
+    "country": "Grenada",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 112003,
+    "year": 2019
+  },
+  {
+    "country": "Guadeloupe",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 446928,
+    "year": 2018
+  },
+  {
+    "country": "Guadeloupe",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 447905,
+    "year": 2019
+  },
+  {
+    "country": "Guatemala",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 17247849,
+    "year": 2018
+  },
+  {
+    "country": "Guatemala",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 17581472,
+    "year": 2019
+  },
+  {
+    "country": "Guyana",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 779006,
+    "year": 2018
+  },
+  {
+    "country": "Guyana",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 782766,
+    "year": 2019
+  },
+  {
+    "country": "Haiti",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 11123178,
+    "year": 2018
+  },
+  {
+    "country": "Haiti",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 11263770,
+    "year": 2019
+  },
+  {
+    "country": "Honduras",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 9587522,
+    "year": 2018
+  },
+  {
+    "country": "Honduras",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 9746117,
+    "year": 2019
+  },
+  {
+    "country": "Jamaica",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 2934847,
+    "year": 2018
+  },
+  {
+    "country": "Jamaica",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 2948279,
+    "year": 2019
+  },
+  {
+    "country": "Martinique",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 375673,
+    "year": 2018
+  },
+  {
+    "country": "Martinique",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 375554,
+    "year": 2019
+  },
+  {
+    "country": "Mexico",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 126190788,
+    "year": 2018
+  },
+  {
+    "country": "Mexico",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 127575529,
+    "year": 2019
+  },
+  {
+    "country": "Montserrat",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 4993,
+    "year": 2018
+  },
+  {
+    "country": "Montserrat",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 4989,
+    "year": 2019
+  },
+  {
+    "country": "Nicaragua",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 6465501,
+    "year": 2018
+  },
+  {
+    "country": "Nicaragua",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 6545502,
+    "year": 2019
+  },
+  {
+    "country": "Panama",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 4176869,
+    "year": 2018
+  },
+  {
+    "country": "Panama",
+    "continent": "Americas",
+    "region": "Central America",
+    "population": 4246439,
+    "year": 2019
+  },
+  {
+    "country": "Paraguay",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 6956066,
+    "year": 2018
+  },
+  {
+    "country": "Paraguay",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 7044636,
+    "year": 2019
+  },
+  {
+    "country": "Peru",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 31989260,
+    "year": 2018
+  },
+  {
+    "country": "Peru",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 32510453,
+    "year": 2019
+  },
+  {
+    "country": "Puerto Rico",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 3039596,
+    "year": 2018
+  },
+  {
+    "country": "Puerto Rico",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 2933408,
+    "year": 2019
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 52441,
+    "year": 2018
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 52823,
+    "year": 2019
+  },
+  {
+    "country": "Saint Lucia",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 181889,
+    "year": 2018
+  },
+  {
+    "country": "Saint Lucia",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 182790,
+    "year": 2019
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 5849,
+    "year": 2018
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 5822,
+    "year": 2019
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 110211,
+    "year": 2018
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 110589,
+    "year": 2019
+  },
+  {
+    "country": "Sint Maarten",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 41940,
+    "year": 2018
+  },
+  {
+    "country": "Sint Maarten",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 42388,
+    "year": 2019
+  },
+  {
+    "country": "Suriname",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 575990,
+    "year": 2018
+  },
+  {
+    "country": "Suriname",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 581372,
+    "year": 2019
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 1389843,
+    "year": 2018
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 1394973,
+    "year": 2019
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 37665,
+    "year": 2018
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 38191,
+    "year": 2019
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 104680,
+    "year": 2018
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "continent": "Americas",
+    "region": "Caribbean",
+    "population": 104578,
+    "year": 2019
+  },
+  {
+    "country": "United States",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 327096265,
+    "year": 2018
+  },
+  {
+    "country": "United States",
+    "continent": "Americas",
+    "region": "Northern America",
+    "population": 329064917,
+    "year": 2019
+  },
+  {
+    "country": "Uruguay",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 3449285,
+    "year": 2018
+  },
+  {
+    "country": "Uruguay",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 3461734,
+    "year": 2019
+  },
+  {
+    "country": "Venezuela",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 28887118,
+    "year": 2018
+  },
+  {
+    "country": "Venezuela",
+    "continent": "Americas",
+    "region": "South America",
+    "population": 28515829,
+    "year": 2019
+  },
+  {
+    "country": "Afghanistan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 37171921,
+    "year": 2018
+  },
+  {
+    "country": "Afghanistan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 38041754,
+    "year": 2019
+  },
+  {
+    "country": "Armenia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 2951745,
+    "year": 2018
+  },
+  {
+    "country": "Armenia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 2957731,
+    "year": 2019
+  },
+  {
+    "country": "Azerbaijan",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 9949537,
+    "year": 2018
+  },
+  {
+    "country": "Azerbaijan",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 10047718,
+    "year": 2019
+  },
+  {
+    "country": "Bahrain",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 1569446,
+    "year": 2018
+  },
+  {
+    "country": "Bahrain",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 1641172,
+    "year": 2019
+  },
+  {
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 161376708,
+    "year": 2018
+  },
+  {
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 163046161,
+    "year": 2019
+  },
+  {
+    "country": "Bhutan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 754388,
+    "year": 2018
+  },
+  {
+    "country": "Bhutan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 763092,
+    "year": 2019
+  },
+  {
+    "country": "Brunei",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 428963,
+    "year": 2018
+  },
+  {
+    "country": "Brunei",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 433285,
+    "year": 2019
+  },
+  {
+    "country": "Cambodia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 16249792,
+    "year": 2018
+  },
+  {
+    "country": "Cambodia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 16486542,
+    "year": 2019
+  },
+  {
+    "country": "China",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 1427647786,
+    "year": 2018
+  },
+  {
+    "country": "China",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 1433783686,
+    "year": 2019
+  },
+  {
+    "country": "Cyprus",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 1170125,
+    "year": 2018
+  },
+  {
+    "country": "Cyprus",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 1179551,
+    "year": 2019
+  },
+  {
+    "country": "East Timor",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 1267974,
+    "year": 2018
+  },
+  {
+    "country": "East Timor",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 1293119,
+    "year": 2019
+  },
+  {
+    "country": "Georgia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4002942,
+    "year": 2018
+  },
+  {
+    "country": "Georgia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 3996765,
+    "year": 2019
+  },
+  {
+    "country": "Hong Kong",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 7371730,
+    "year": 2018
+  },
+  {
+    "country": "Hong Kong",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 7436154,
+    "year": 2019
+  },
+  {
+    "country": "India",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 1352642280,
+    "year": 2018
+  },
+  {
+    "country": "India",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 1366417754,
+    "year": 2019
+  },
+  {
+    "country": "Indonesia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 267670543,
+    "year": 2018
+  },
+  {
+    "country": "Indonesia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 270625568,
+    "year": 2019
+  },
+  {
+    "country": "Iran",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 81800188,
+    "year": 2018
+  },
+  {
+    "country": "Iran",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 82913906,
+    "year": 2019
+  },
+  {
+    "country": "Iraq",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 38433600,
+    "year": 2018
+  },
+  {
+    "country": "Iraq",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 39309783,
+    "year": 2019
+  },
+  {
+    "country": "Israel",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 8381516,
+    "year": 2018
+  },
+  {
+    "country": "Israel",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 8519377,
+    "year": 2019
+  },
+  {
+    "country": "Japan",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 127202192,
+    "year": 2018
+  },
+  {
+    "country": "Japan",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 126860301,
+    "year": 2019
+  },
+  {
+    "country": "Jordan",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 9965318,
+    "year": 2018
+  },
+  {
+    "country": "Jordan",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 10101694,
+    "year": 2019
+  },
+  {
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 18319618,
+    "year": 2018
+  },
+  {
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 18551427,
+    "year": 2019
+  },
+  {
+    "country": "Kuwait",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4137312,
+    "year": 2018
+  },
+  {
+    "country": "Kuwait",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4207083,
+    "year": 2019
+  },
+  {
+    "country": "Kyrgyzstan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 6304030,
+    "year": 2018
+  },
+  {
+    "country": "Kyrgyzstan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 6415850,
+    "year": 2019
+  },
+  {
+    "country": "Laos",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 7061507,
+    "year": 2018
+  },
+  {
+    "country": "Laos",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 7169455,
+    "year": 2019
+  },
+  {
+    "country": "Lebanon",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 6859408,
+    "year": 2018
+  },
+  {
+    "country": "Lebanon",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 6855713,
+    "year": 2019
+  },
+  {
+    "country": "Macau",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 631636,
+    "year": 2018
+  },
+  {
+    "country": "Macau",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 640445,
+    "year": 2019
+  },
+  {
+    "country": "Malaysia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 31528033,
+    "year": 2018
+  },
+  {
+    "country": "Malaysia",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 31949777,
+    "year": 2019
+  },
+  {
+    "country": "Maldives",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 515696,
+    "year": 2018
+  },
+  {
+    "country": "Maldives",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 530953,
+    "year": 2019
+  },
+  {
+    "country": "Mongolia",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 3170216,
+    "year": 2018
+  },
+  {
+    "country": "Mongolia",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 3225167,
+    "year": 2019
+  },
+  {
+    "country": "Myanmar",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 53708320,
+    "year": 2018
+  },
+  {
+    "country": "Myanmar",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 54045420,
+    "year": 2019
+  },
+  {
+    "country": "Nepal",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 28095714,
+    "year": 2018
+  },
+  {
+    "country": "Nepal",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 28608710,
+    "year": 2019
+  },
+  {
+    "country": "North Korea",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 25549604,
+    "year": 2018
+  },
+  {
+    "country": "North Korea",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 25666161,
+    "year": 2019
+  },
+  {
+    "country": "Oman",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4829473,
+    "year": 2018
+  },
+  {
+    "country": "Oman",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4974986,
+    "year": 2019
+  },
+  {
+    "country": "Pakistan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 212228286,
+    "year": 2018
+  },
+  {
+    "country": "Pakistan",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 216565318,
+    "year": 2019
+  },
+  {
+    "country": "Palestine",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4862979,
+    "year": 2018
+  },
+  {
+    "country": "Palestine",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 4981420,
+    "year": 2019
+  },
+  {
+    "country": "Philippines",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 106651394,
+    "year": 2018
+  },
+  {
+    "country": "Philippines",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 108116615,
+    "year": 2019
+  },
+  {
+    "country": "Qatar",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 2781682,
+    "year": 2018
+  },
+  {
+    "country": "Qatar",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 2832067,
+    "year": 2019
+  },
+  {
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 33702756,
+    "year": 2018
+  },
+  {
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 34268528,
+    "year": 2019
+  },
+  {
+    "country": "Singapore",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 5757499,
+    "year": 2018
+  },
+  {
+    "country": "Singapore",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 5804337,
+    "year": 2019
+  },
+  {
+    "country": "South Korea",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 51171706,
+    "year": 2018
+  },
+  {
+    "country": "South Korea",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 51225308,
+    "year": 2019
+  },
+  {
+    "country": "Sri Lanka",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 21228763,
+    "year": 2018
+  },
+  {
+    "country": "Sri Lanka",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "population": 21323733,
+    "year": 2019
+  },
+  {
+    "country": "Syria",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 16945057,
+    "year": 2018
+  },
+  {
+    "country": "Syria",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 17070135,
+    "year": 2019
+  },
+  {
+    "country": "Taiwan",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 23726460,
+    "year": 2018
+  },
+  {
+    "country": "Taiwan",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "population": 23773876,
+    "year": 2019
+  },
+  {
+    "country": "Tajikistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 9100835,
+    "year": 2018
+  },
+  {
+    "country": "Tajikistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 9321018,
+    "year": 2019
+  },
+  {
+    "country": "Thailand",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 68863514,
+    "year": 2018
+  },
+  {
+    "country": "Thailand",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 69037513,
+    "year": 2019
+  },
+  {
+    "country": "Turkey",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 82340088,
+    "year": 2018
+  },
+  {
+    "country": "Turkey",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 83429615,
+    "year": 2019
+  },
+  {
+    "country": "Turkmenistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 5850901,
+    "year": 2018
+  },
+  {
+    "country": "Turkmenistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 5942089,
+    "year": 2019
+  },
+  {
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 9630959,
+    "year": 2018
+  },
+  {
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 9770529,
+    "year": 2019
+  },
+  {
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 32476244,
+    "year": 2018
+  },
+  {
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "population": 32981716,
+    "year": 2019
+  },
+  {
+    "country": "Vietnam",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 95545962,
+    "year": 2018
+  },
+  {
+    "country": "Vietnam",
+    "continent": "Asia",
+    "region": "South-eastern Asia",
+    "population": 96462106,
+    "year": 2019
+  },
+  {
+    "country": "Yemen",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 28498683,
+    "year": 2018
+  },
+  {
+    "country": "Yemen",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 29161922,
+    "year": 2019
+  },
+  {
+    "country": "Albania",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2882740,
+    "year": 2018
+  },
+  {
+    "country": "Albania",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2880917,
+    "year": 2019
+  },
+  {
+    "country": "Andorra",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 77006,
+    "year": 2018
+  },
+  {
+    "country": "Andorra",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 77142,
+    "year": 2019
+  },
+  {
+    "country": "Austria",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 8891388,
+    "year": 2018
+  },
+  {
+    "country": "Austria",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 8955102,
+    "year": 2019
+  },
+  {
+    "country": "Belarus",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 9452617,
+    "year": 2018
+  },
+  {
+    "country": "Belarus",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 9452411,
+    "year": 2019
+  },
+  {
+    "country": "Belgium",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 11482178,
+    "year": 2018
+  },
+  {
+    "country": "Belgium",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 11539328,
+    "year": 2019
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 3323925,
+    "year": 2018
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 3301000,
+    "year": 2019
+  },
+  {
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 7051608,
+    "year": 2018
+  },
+  {
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 7000119,
+    "year": 2019
+  },
+  {
+    "country": "Croatia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 4156405,
+    "year": 2018
+  },
+  {
+    "country": "Croatia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 4130304,
+    "year": 2019
+  },
+  {
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 10665677,
+    "year": 2018
+  },
+  {
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 10689209,
+    "year": 2019
+  },
+  {
+    "country": "Denmark",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5752126,
+    "year": 2018
+  },
+  {
+    "country": "Denmark",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5771876,
+    "year": 2019
+  },
+  {
+    "country": "Estonia",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 1322920,
+    "year": 2018
+  },
+  {
+    "country": "Estonia",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 1325648,
+    "year": 2019
+  },
+  {
+    "country": "Faroe Islands",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 48497,
+    "year": 2018
+  },
+  {
+    "country": "Faroe Islands",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 48678,
+    "year": 2019
+  },
+  {
+    "country": "Finland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5522576,
+    "year": 2018
+  },
+  {
+    "country": "Finland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5532156,
+    "year": 2019
+  },
+  {
+    "country": "France",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 64990511,
+    "year": 2018
+  },
+  {
+    "country": "France",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 65129728,
+    "year": 2019
+  },
+  {
+    "country": "Germany",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 83124418,
+    "year": 2018
+  },
+  {
+    "country": "Germany",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 83517045,
+    "year": 2019
+  },
+  {
+    "country": "Gibraltar",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 33718,
+    "year": 2018
+  },
+  {
+    "country": "Gibraltar",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 33701,
+    "year": 2019
+  },
+  {
+    "country": "Greece",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 10522246,
+    "year": 2018
+  },
+  {
+    "country": "Greece",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 10473455,
+    "year": 2019
+  },
+  {
+    "country": "GuernseyandJersey",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 170499,
+    "year": 2018
+  },
+  {
+    "country": "GuernseyandJersey",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 172259,
+    "year": 2019
+  },
+  {
+    "country": "Hungary",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 9707499,
+    "year": 2018
+  },
+  {
+    "country": "Hungary",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 9684679,
+    "year": 2019
+  },
+  {
+    "country": "Iceland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 336713,
+    "year": 2018
+  },
+  {
+    "country": "Iceland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 339031,
+    "year": 2019
+  },
+  {
+    "country": "Ireland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 4818690,
+    "year": 2018
+  },
+  {
+    "country": "Ireland",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 4882495,
+    "year": 2019
+  },
+  {
+    "country": "Isle of Man",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 84077,
+    "year": 2018
+  },
+  {
+    "country": "Isle of Man",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 84584,
+    "year": 2019
+  },
+  {
+    "country": "Italy",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 60627291,
+    "year": 2018
+  },
+  {
+    "country": "Italy",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 60550075,
+    "year": 2019
+  },
+  {
+    "country": "Latvia",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 1928459,
+    "year": 2018
+  },
+  {
+    "country": "Latvia",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 1906743,
+    "year": 2019
+  },
+  {
+    "country": "Liechtenstein",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 37910,
+    "year": 2018
+  },
+  {
+    "country": "Liechtenstein",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 38019,
+    "year": 2019
+  },
+  {
+    "country": "Lithuania",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 2801264,
+    "year": 2018
+  },
+  {
+    "country": "Lithuania",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 2759627,
+    "year": 2019
+  },
+  {
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 604245,
+    "year": 2018
+  },
+  {
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 615729,
+    "year": 2019
+  },
+  {
+    "country": "Malta",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 439248,
+    "year": 2018
+  },
+  {
+    "country": "Malta",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 440372,
+    "year": 2019
+  },
+  {
+    "country": "Moldova",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 4051944,
+    "year": 2018
+  },
+  {
+    "country": "Moldova",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 4043263,
+    "year": 2019
+  },
+  {
+    "country": "Monaco",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 38682,
+    "year": 2018
+  },
+  {
+    "country": "Monaco",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 38964,
+    "year": 2019
+  },
+  {
+    "country": "Montenegro",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 627809,
+    "year": 2018
+  },
+  {
+    "country": "Montenegro",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 627987,
+    "year": 2019
+  },
+  {
+    "country": "Netherlands",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 17059560,
+    "year": 2018
+  },
+  {
+    "country": "Netherlands",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 17097130,
+    "year": 2019
+  },
+  {
+    "country": "North Macedonia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2082957,
+    "year": 2018
+  },
+  {
+    "country": "North Macedonia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2083459,
+    "year": 2019
+  },
+  {
+    "country": "Norway",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5337962,
+    "year": 2018
+  },
+  {
+    "country": "Norway",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 5378857,
+    "year": 2019
+  },
+  {
+    "country": "Poland",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 37921592,
+    "year": 2018
+  },
+  {
+    "country": "Poland",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 37887768,
+    "year": 2019
+  },
+  {
+    "country": "Portugal",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 10256193,
+    "year": 2018
+  },
+  {
+    "country": "Portugal",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 10226187,
+    "year": 2019
+  },
+  {
+    "country": "Romania",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 19506114,
+    "year": 2018
+  },
+  {
+    "country": "Romania",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 19364557,
+    "year": 2019
+  },
+  {
+    "country": "Russia",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 145734038,
+    "year": 2018
+  },
+  {
+    "country": "Russia",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 145872256,
+    "year": 2019
+  },
+  {
+    "country": "San Marino",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 33785,
+    "year": 2018
+  },
+  {
+    "country": "San Marino",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 33860,
+    "year": 2019
+  },
+  {
+    "country": "Serbia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 8802754,
+    "year": 2018
+  },
+  {
+    "country": "Serbia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 8772235,
+    "year": 2019
+  },
+  {
+    "country": "Slovakia",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 5453014,
+    "year": 2018
+  },
+  {
+    "country": "Slovakia",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 5457013,
+    "year": 2019
+  },
+  {
+    "country": "Slovenia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2077837,
+    "year": 2018
+  },
+  {
+    "country": "Slovenia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 2078654,
+    "year": 2019
+  },
+  {
+    "country": "Spain",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 46692858,
+    "year": 2018
+  },
+  {
+    "country": "Spain",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 46736776,
+    "year": 2019
+  },
+  {
+    "country": "Sweden",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 9971638,
+    "year": 2018
+  },
+  {
+    "country": "Sweden",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 10036379,
+    "year": 2019
+  },
+  {
+    "country": "Switzerland",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 8525611,
+    "year": 2018
+  },
+  {
+    "country": "Switzerland",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "population": 8591365,
+    "year": 2019
+  },
+  {
+    "country": "Ukraine",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 44246156,
+    "year": 2018
+  },
+  {
+    "country": "Ukraine",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "population": 43993638,
+    "year": 2019
+  },
+  {
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 67141684,
+    "year": 2018
+  },
+  {
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "population": 67530172,
+    "year": 2019
+  },
+  {
+    "country": "Vatican City",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 801,
+    "year": 2018
+  },
+  {
+    "country": "Vatican City",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "population": 799,
+    "year": 2019
+  },
+  {
+    "country": "American Samoa",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 55465,
+    "year": 2018
+  },
+  {
+    "country": "American Samoa",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 55312,
+    "year": 2019
+  },
+  {
+    "country": "Australia",
+    "continent": "Oceania",
+    "region": "AustraliaandNew Zealand",
+    "population": 24898152,
+    "year": 2018
+  },
+  {
+    "country": "Australia",
+    "continent": "Oceania",
+    "region": "AustraliaandNew Zealand",
+    "population": 25203198,
+    "year": 2019
+  },
+  {
+    "country": "Cook Islands",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 17518,
+    "year": 2018
+  },
+  {
+    "country": "Cook Islands",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 17548,
+    "year": 2019
+  },
+  {
+    "country": "F.S. Micronesia",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 112640,
+    "year": 2018
+  },
+  {
+    "country": "F.S. Micronesia",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 113815,
+    "year": 2019
+  },
+  {
+    "country": "Fiji",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 883483,
+    "year": 2018
+  },
+  {
+    "country": "Fiji",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 889953,
+    "year": 2019
+  },
+  {
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 277679,
+    "year": 2018
+  },
+  {
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 279287,
+    "year": 2019
+  },
+  {
+    "country": "Guam",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 165768,
+    "year": 2018
+  },
+  {
+    "country": "Guam",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 167294,
+    "year": 2019
+  },
+  {
+    "country": "Kiribati",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 115847,
+    "year": 2018
+  },
+  {
+    "country": "Kiribati",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 117606,
+    "year": 2019
+  },
+  {
+    "country": "Marshall Islands",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 58413,
+    "year": 2018
+  },
+  {
+    "country": "Marshall Islands",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 58791,
+    "year": 2019
+  },
+  {
+    "country": "Nauru",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 10670,
+    "year": 2018
+  },
+  {
+    "country": "Nauru",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 10756,
+    "year": 2019
+  },
+  {
+    "country": "New Caledonia",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 279993,
+    "year": 2018
+  },
+  {
+    "country": "New Caledonia",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 282750,
+    "year": 2019
+  },
+  {
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "region": "AustraliaandNew Zealand",
+    "population": 4743131,
+    "year": 2018
+  },
+  {
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "region": "AustraliaandNew Zealand",
+    "population": 4783063,
+    "year": 2019
+  },
+  {
+    "country": "Niue",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 1620,
+    "year": 2018
+  },
+  {
+    "country": "Niue",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 1615,
+    "year": 2019
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 56882,
+    "year": 2018
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 56188,
+    "year": 2019
+  },
+  {
+    "country": "Palau",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 17907,
+    "year": 2018
+  },
+  {
+    "country": "Palau",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "population": 18008,
+    "year": 2019
+  },
+  {
+    "country": "Papua New Guinea",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 8606323,
+    "year": 2018
+  },
+  {
+    "country": "Papua New Guinea",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 8776109,
+    "year": 2019
+  },
+  {
+    "country": "Samoa",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 196129,
+    "year": 2018
+  },
+  {
+    "country": "Samoa",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 197097,
+    "year": 2019
+  },
+  {
+    "country": "Solomon Islands",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 652857,
+    "year": 2018
+  },
+  {
+    "country": "Solomon Islands",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 669823,
+    "year": 2019
+  },
+  {
+    "country": "Tokelau",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 1319,
+    "year": 2018
+  },
+  {
+    "country": "Tokelau",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 1340,
+    "year": 2019
+  },
+  {
+    "country": "Tonga",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 110589,
+    "year": 2018
+  },
+  {
+    "country": "Tonga",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 110940,
+    "year": 2019
+  },
+  {
+    "country": "Tuvalu",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 11508,
+    "year": 2018
+  },
+  {
+    "country": "Tuvalu",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 11646,
+    "year": 2019
+  },
+  {
+    "country": "Vanuatu",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 292680,
+    "year": 2018
+  },
+  {
+    "country": "Vanuatu",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "population": 299882,
+    "year": 2019
+  },
+  {
+    "country": "Wallis and Futuna",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 11661,
+    "year": 2018
+  },
+  {
+    "country": "Wallis and Futuna",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "population": 11432,
+    "year": 2019
+  }
+]
