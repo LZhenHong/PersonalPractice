@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AA2519DB1800E75243 /* AppDelegate.m */; };
 		34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AD2519DB1800E75243 /* SceneDelegate.m */; };
-		34AC42B12519DB1800E75243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42B02519DB1800E75243 /* ViewController.m */; };
+		34AC42B12519DB1800E75243 /* ProvinceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42B02519DB1800E75243 /* ProvinceViewController.m */; };
 		34AC42B42519DB1800E75243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B22519DB1800E75243 /* Main.storyboard */; };
 		34AC42B62519DB1900E75243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B52519DB1900E75243 /* Assets.xcassets */; };
 		34AC42B92519DB1900E75243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */; };
@@ -27,8 +27,8 @@
 		34AC42AA2519DB1800E75243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34AC42AC2519DB1800E75243 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		34AC42AD2519DB1800E75243 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		34AC42AF2519DB1800E75243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34AC42B02519DB1800E75243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34AC42AF2519DB1800E75243 /* ProvinceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceViewController.h; sourceTree = "<group>"; };
+		34AC42B02519DB1800E75243 /* ProvinceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewController.m; sourceTree = "<group>"; };
 		34AC42B32519DB1800E75243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34AC42B52519DB1900E75243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34AC42B82519DB1900E75243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 				34AC42AA2519DB1800E75243 /* AppDelegate.m */,
 				34AC42AC2519DB1800E75243 /* SceneDelegate.h */,
 				34AC42AD2519DB1800E75243 /* SceneDelegate.m */,
-				34AC42AF2519DB1800E75243 /* ViewController.h */,
-				34AC42B02519DB1800E75243 /* ViewController.m */,
+				34AC42AF2519DB1800E75243 /* ProvinceViewController.h */,
+				34AC42B02519DB1800E75243 /* ProvinceViewController.m */,
 				34AC42B22519DB1800E75243 /* Main.storyboard */,
 				34AC42B52519DB1900E75243 /* Assets.xcassets */,
 				34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */,
@@ -175,7 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AC42B12519DB1800E75243 /* ViewController.m in Sources */,
+				34AC42B12519DB1800E75243 /* ProvinceViewController.m in Sources */,
 				34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */,
 				34AC42BC2519DB1900E75243 /* main.m in Sources */,
 				34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */,
