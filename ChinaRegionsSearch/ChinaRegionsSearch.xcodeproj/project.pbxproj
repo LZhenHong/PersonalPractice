@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AA2519DB1800E75243 /* AppDelegate.m */; };
+		34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AD2519DB1800E75243 /* SceneDelegate.m */; };
+		34AC42B12519DB1800E75243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42B02519DB1800E75243 /* ViewController.m */; };
+		34AC42B42519DB1800E75243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B22519DB1800E75243 /* Main.storyboard */; };
+		34AC42B62519DB1900E75243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B52519DB1900E75243 /* Assets.xcassets */; };
+		34AC42B92519DB1900E75243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */; };
+		34AC42BC2519DB1900E75243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42BB2519DB1900E75243 /* main.m */; };
+		34AC42C82519DB6400E75243 /* county.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C42519DB6300E75243 /* county.json */; };
+		34AC42C92519DB6400E75243 /* town.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C52519DB6400E75243 /* town.json */; };
+		34AC42CA2519DB6400E75243 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C62519DB6400E75243 /* province.json */; };
+		34AC42CB2519DB6400E75243 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C72519DB6400E75243 /* city.json */; };
+		34AC42E9251A00AE00E75243 /* village.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42E8251A00AE00E75243 /* village.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34AC42A62519DB1800E75243 /* ChinaRegionsSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaRegionsSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AC42A92519DB1800E75243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34AC42AA2519DB1800E75243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34AC42AC2519DB1800E75243 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		34AC42AD2519DB1800E75243 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		34AC42AF2519DB1800E75243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34AC42B02519DB1800E75243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34AC42B32519DB1800E75243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34AC42B52519DB1900E75243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34AC42B82519DB1900E75243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34AC42BA2519DB1900E75243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AC42BB2519DB1900E75243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34AC42C42519DB6300E75243 /* county.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = county.json; sourceTree = "<group>"; };
+		34AC42C52519DB6400E75243 /* town.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = town.json; sourceTree = "<group>"; };
+		34AC42C62519DB6400E75243 /* province.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province.json; sourceTree = "<group>"; };
+		34AC42C72519DB6400E75243 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		34AC42CD2519DB8F00E75243 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34AC42E8251A00AE00E75243 /* village.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = village.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34AC42A32519DB1800E75243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AC429D2519DB1800E75243 = {
+			isa = PBXGroup;
+			children = (
+				34AC42A82519DB1800E75243 /* ChinaRegionsSearch */,
+				34AC42A72519DB1800E75243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34AC42A72519DB1800E75243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34AC42A62519DB1800E75243 /* ChinaRegionsSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34AC42A82519DB1800E75243 /* ChinaRegionsSearch */ = {
+			isa = PBXGroup;
+			children = (
+				34AC42C32519DB2500E75243 /* china_regions */,
+				34AC42A92519DB1800E75243 /* AppDelegate.h */,
+				34AC42AA2519DB1800E75243 /* AppDelegate.m */,
+				34AC42AC2519DB1800E75243 /* SceneDelegate.h */,
+				34AC42AD2519DB1800E75243 /* SceneDelegate.m */,
+				34AC42AF2519DB1800E75243 /* ViewController.h */,
+				34AC42B02519DB1800E75243 /* ViewController.m */,
+				34AC42B22519DB1800E75243 /* Main.storyboard */,
+				34AC42B52519DB1900E75243 /* Assets.xcassets */,
+				34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */,
+				34AC42BA2519DB1900E75243 /* Info.plist */,
+				34AC42BB2519DB1900E75243 /* main.m */,
+			);
+			path = ChinaRegionsSearch;
+			sourceTree = "<group>";
+		};
+		34AC42C32519DB2500E75243 /* china_regions */ = {
+			isa = PBXGroup;
+			children = (
+				34AC42C72519DB6400E75243 /* city.json */,
+				34AC42C42519DB6300E75243 /* county.json */,
+				34AC42C62519DB6400E75243 /* province.json */,
+				34AC42C52519DB6400E75243 /* town.json */,
+				34AC42CD2519DB8F00E75243 /* README.md */,
+				34AC42E8251A00AE00E75243 /* village.json */,
+			);
+			path = china_regions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34AC42A52519DB1800E75243 /* ChinaRegionsSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AC42BF2519DB1900E75243 /* Build configuration list for PBXNativeTarget "ChinaRegionsSearch" */;
+			buildPhases = (
+				34AC42A22519DB1800E75243 /* Sources */,
+				34AC42A32519DB1800E75243 /* Frameworks */,
+				34AC42A42519DB1800E75243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinaRegionsSearch;
+			productName = ChinaRegionsSearch;
+			productReference = 34AC42A62519DB1800E75243 /* ChinaRegionsSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34AC429E2519DB1800E75243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					34AC42A52519DB1800E75243 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 34AC42A12519DB1800E75243 /* Build configuration list for PBXProject "ChinaRegionsSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34AC429D2519DB1800E75243;
+			productRefGroup = 34AC42A72519DB1800E75243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34AC42A52519DB1800E75243 /* ChinaRegionsSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34AC42A42519DB1800E75243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AC42E9251A00AE00E75243 /* village.json in Resources */,
+				34AC42B92519DB1900E75243 /* LaunchScreen.storyboard in Resources */,
+				34AC42C82519DB6400E75243 /* county.json in Resources */,
+				34AC42C92519DB6400E75243 /* town.json in Resources */,
+				34AC42B62519DB1900E75243 /* Assets.xcassets in Resources */,
+				34AC42CB2519DB6400E75243 /* city.json in Resources */,
+				34AC42B42519DB1800E75243 /* Main.storyboard in Resources */,
+				34AC42CA2519DB6400E75243 /* province.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34AC42A22519DB1800E75243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AC42B12519DB1800E75243 /* ViewController.m in Sources */,
+				34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */,
+				34AC42BC2519DB1900E75243 /* main.m in Sources */,
+				34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34AC42B22519DB1800E75243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AC42B32519DB1800E75243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AC42B82519DB1900E75243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34AC42BD2519DB1900E75243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34AC42BE2519DB1900E75243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34AC42C02519DB1900E75243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				INFOPLIST_FILE = ChinaRegionsSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzhenhong.ChinaRegionsSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34AC42C12519DB1900E75243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V65YCRQZ2M;
+				INFOPLIST_FILE = ChinaRegionsSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzhenhong.ChinaRegionsSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34AC42A12519DB1800E75243 /* Build configuration list for PBXProject "ChinaRegionsSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AC42BD2519DB1900E75243 /* Debug */,
+				34AC42BE2519DB1900E75243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AC42BF2519DB1900E75243 /* Build configuration list for PBXNativeTarget "ChinaRegionsSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AC42C02519DB1900E75243 /* Debug */,
+				34AC42C12519DB1900E75243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34AC429E2519DB1800E75243 /* Project object */;
+}
