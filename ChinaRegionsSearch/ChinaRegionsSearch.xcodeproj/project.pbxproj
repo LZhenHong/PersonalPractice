@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340E4C0C251B32D0009C8153 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E4C0B251B32D0009C8153 /* CityTableViewController.m */; };
+		340E4C11251B3424009C8153 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E4C10251B3424009C8153 /* City.m */; };
+		340E4C15251B34A8009C8153 /* CityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E4C14251B34A8009C8153 /* CityHelper.m */; };
+		340E4C1C251B3D91009C8153 /* LoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E4C1B251B3D91009C8153 /* LoadingTableViewCell.m */; };
+		3425E54D251AF1C300CF3FBF /* SearchTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425E54C251AF1C300CF3FBF /* SearchTokenTableViewCell.m */; };
+		3425E552251AF4E100CF3FBF /* SearchToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425E551251AF4E100CF3FBF /* SearchToken.m */; };
+		34316936251AE40400767C4C /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = 34316935251AE40400767C4C /* Province.m */; };
+		3431693B251AE8A700767C4C /* ProvinceHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3431693A251AE8A700767C4C /* ProvinceHepler.m */; };
+		34316942251AEC5700767C4C /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34316941251AEC5700767C4C /* ResultsTableViewController.m */; };
+		34316946251AEDE700767C4C /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 34316945251AEDE700767C4C /* SearchResult.m */; };
 		34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AA2519DB1800E75243 /* AppDelegate.m */; };
 		34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42AD2519DB1800E75243 /* SceneDelegate.m */; };
 		34AC42B12519DB1800E75243 /* ProvinceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AC42B02519DB1800E75243 /* ProvinceViewController.m */; };
@@ -18,10 +28,29 @@
 		34AC42C92519DB6400E75243 /* town.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C52519DB6400E75243 /* town.json */; };
 		34AC42CA2519DB6400E75243 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C62519DB6400E75243 /* province.json */; };
 		34AC42CB2519DB6400E75243 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42C72519DB6400E75243 /* city.json */; };
-		34AC42E9251A00AE00E75243 /* village.json in Resources */ = {isa = PBXBuildFile; fileRef = 34AC42E8251A00AE00E75243 /* village.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340E4C0A251B32D0009C8153 /* CityTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		340E4C0B251B32D0009C8153 /* CityTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		340E4C0F251B3424009C8153 /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		340E4C10251B3424009C8153 /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		340E4C13251B34A8009C8153 /* CityHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityHelper.h; sourceTree = "<group>"; };
+		340E4C14251B34A8009C8153 /* CityHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityHelper.m; sourceTree = "<group>"; };
+		340E4C1A251B3D91009C8153 /* LoadingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingTableViewCell.h; sourceTree = "<group>"; };
+		340E4C1B251B3D91009C8153 /* LoadingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingTableViewCell.m; sourceTree = "<group>"; };
+		3425E54B251AF1C300CF3FBF /* SearchTokenTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTokenTableViewCell.h; sourceTree = "<group>"; };
+		3425E54C251AF1C300CF3FBF /* SearchTokenTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTokenTableViewCell.m; sourceTree = "<group>"; };
+		3425E550251AF4E100CF3FBF /* SearchToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchToken.h; sourceTree = "<group>"; };
+		3425E551251AF4E100CF3FBF /* SearchToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchToken.m; sourceTree = "<group>"; };
+		34316934251AE40400767C4C /* Province.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		34316935251AE40400767C4C /* Province.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		34316939251AE8A700767C4C /* ProvinceHepler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceHepler.h; sourceTree = "<group>"; };
+		3431693A251AE8A700767C4C /* ProvinceHepler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceHepler.m; sourceTree = "<group>"; };
+		34316940251AEC5700767C4C /* ResultsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		34316941251AEC5700767C4C /* ResultsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
+		34316944251AEDE700767C4C /* SearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		34316945251AEDE700767C4C /* SearchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
 		34AC42A62519DB1800E75243 /* ChinaRegionsSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaRegionsSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AC42A92519DB1800E75243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34AC42AA2519DB1800E75243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,7 +68,6 @@
 		34AC42C62519DB6400E75243 /* province.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province.json; sourceTree = "<group>"; };
 		34AC42C72519DB6400E75243 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		34AC42CD2519DB8F00E75243 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		34AC42E8251A00AE00E75243 /* village.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = village.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340E4C09251B32BD009C8153 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				340E4C0F251B3424009C8153 /* City.h */,
+				340E4C10251B3424009C8153 /* City.m */,
+				340E4C13251B34A8009C8153 /* CityHelper.h */,
+				340E4C14251B34A8009C8153 /* CityHelper.m */,
+				340E4C1A251B3D91009C8153 /* LoadingTableViewCell.h */,
+				340E4C1B251B3D91009C8153 /* LoadingTableViewCell.m */,
+				340E4C0A251B32D0009C8153 /* CityTableViewController.h */,
+				340E4C0B251B32D0009C8153 /* CityTableViewController.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		3425E555251AF74800CF3FBF /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				3425E550251AF4E100CF3FBF /* SearchToken.h */,
+				3425E551251AF4E100CF3FBF /* SearchToken.m */,
+				34316944251AEDE700767C4C /* SearchResult.h */,
+				34316945251AEDE700767C4C /* SearchResult.m */,
+				34316940251AEC5700767C4C /* ResultsTableViewController.h */,
+				34316941251AEC5700767C4C /* ResultsTableViewController.m */,
+				3425E54B251AF1C300CF3FBF /* SearchTokenTableViewCell.h */,
+				3425E54C251AF1C300CF3FBF /* SearchTokenTableViewCell.m */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		3431693E251AEB4700767C4C /* Province */ = {
+			isa = PBXGroup;
+			children = (
+				34316934251AE40400767C4C /* Province.h */,
+				34316935251AE40400767C4C /* Province.m */,
+				34316939251AE8A700767C4C /* ProvinceHepler.h */,
+				3431693A251AE8A700767C4C /* ProvinceHepler.m */,
+				34AC42AF2519DB1800E75243 /* ProvinceViewController.h */,
+				34AC42B02519DB1800E75243 /* ProvinceViewController.m */,
+			);
+			path = Province;
+			sourceTree = "<group>";
+		};
 		34AC429D2519DB1800E75243 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +143,14 @@
 		34AC42A82519DB1800E75243 /* ChinaRegionsSearch */ = {
 			isa = PBXGroup;
 			children = (
+				340E4C09251B32BD009C8153 /* City */,
+				3425E555251AF74800CF3FBF /* SearchResult */,
+				3431693E251AEB4700767C4C /* Province */,
 				34AC42C32519DB2500E75243 /* china_regions */,
 				34AC42A92519DB1800E75243 /* AppDelegate.h */,
 				34AC42AA2519DB1800E75243 /* AppDelegate.m */,
 				34AC42AC2519DB1800E75243 /* SceneDelegate.h */,
 				34AC42AD2519DB1800E75243 /* SceneDelegate.m */,
-				34AC42AF2519DB1800E75243 /* ProvinceViewController.h */,
-				34AC42B02519DB1800E75243 /* ProvinceViewController.m */,
 				34AC42B22519DB1800E75243 /* Main.storyboard */,
 				34AC42B52519DB1900E75243 /* Assets.xcassets */,
 				34AC42B72519DB1900E75243 /* LaunchScreen.storyboard */,
@@ -91,12 +163,11 @@
 		34AC42C32519DB2500E75243 /* china_regions */ = {
 			isa = PBXGroup;
 			children = (
+				34AC42C62519DB6400E75243 /* province.json */,
 				34AC42C72519DB6400E75243 /* city.json */,
 				34AC42C42519DB6300E75243 /* county.json */,
-				34AC42C62519DB6400E75243 /* province.json */,
 				34AC42C52519DB6400E75243 /* town.json */,
 				34AC42CD2519DB8F00E75243 /* README.md */,
-				34AC42E8251A00AE00E75243 /* village.json */,
 			);
 			path = china_regions;
 			sourceTree = "<group>";
@@ -157,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AC42E9251A00AE00E75243 /* village.json in Resources */,
 				34AC42B92519DB1900E75243 /* LaunchScreen.storyboard in Resources */,
 				34AC42C82519DB6400E75243 /* county.json in Resources */,
 				34AC42C92519DB6400E75243 /* town.json in Resources */,
@@ -175,10 +245,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34316936251AE40400767C4C /* Province.m in Sources */,
+				34316942251AEC5700767C4C /* ResultsTableViewController.m in Sources */,
+				340E4C11251B3424009C8153 /* City.m in Sources */,
+				3425E54D251AF1C300CF3FBF /* SearchTokenTableViewCell.m in Sources */,
+				3425E552251AF4E100CF3FBF /* SearchToken.m in Sources */,
 				34AC42B12519DB1800E75243 /* ProvinceViewController.m in Sources */,
 				34AC42AB2519DB1800E75243 /* AppDelegate.m in Sources */,
+				340E4C15251B34A8009C8153 /* CityHelper.m in Sources */,
+				340E4C1C251B3D91009C8153 /* LoadingTableViewCell.m in Sources */,
+				3431693B251AE8A700767C4C /* ProvinceHepler.m in Sources */,
 				34AC42BC2519DB1900E75243 /* main.m in Sources */,
+				34316946251AEDE700767C4C /* SearchResult.m in Sources */,
 				34AC42AE2519DB1800E75243 /* SceneDelegate.m in Sources */,
+				340E4C0C251B32D0009C8153 /* CityTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
