@@ -45,10 +45,38 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-ht-bUl">
-                                <rect key="frame" x="138" y="214" width="138" height="30"/>
-                                <state key="normal" title="Remove Notification"/>
+                                <rect key="frame" x="108" y="214" width="198" height="30"/>
+                                <state key="normal" title="Remove Pending Notification"/>
                                 <connections>
-                                    <action selector="removeTestNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZG5-2n-IWR"/>
+                                    <action selector="removePendingTestNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ziu-mW-thW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOI-mN-xXl">
+                                <rect key="frame" x="113.5" y="254" width="187" height="30"/>
+                                <state key="normal" title="Register Action Notification"/>
+                                <connections>
+                                    <action selector="registerActionNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzA-4h-c1d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJe-7l-NOc">
+                                <rect key="frame" x="103.5" y="294" width="207" height="30"/>
+                                <state key="normal" title="Remove Delivered Notification"/>
+                                <connections>
+                                    <action selector="removeDeliveredNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zN-46-pRf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc7-O0-s73">
+                                <rect key="frame" x="110.5" y="334" width="193" height="30"/>
+                                <state key="normal" title="Update Pending Notification"/>
+                                <connections>
+                                    <action selector="updatePendingNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUT-H9-Ljz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAN-nU-lmn">
+                                <rect key="frame" x="106" y="374" width="202" height="30"/>
+                                <state key="normal" title="Update Delivered Notification"/>
+                                <connections>
+                                    <action selector="updateDeliveredNotification" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0P-OL-IKg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -56,14 +84,22 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jyT-Pq-3C4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="6HY-Lw-8re"/>
+                            <constraint firstItem="oc7-O0-s73" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="84i-jf-d2W"/>
                             <constraint firstItem="1gM-Ha-KaI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gx4-N4-LcN"/>
                             <constraint firstItem="1gM-Ha-KaI" firstAttribute="top" secondItem="lhC-WV-SbQ" secondAttribute="bottom" constant="10" id="Ium-4N-yM6"/>
                             <constraint firstItem="pFr-DP-gv6" firstAttribute="top" secondItem="1gM-Ha-KaI" secondAttribute="bottom" constant="10" id="IvY-9A-V6n"/>
+                            <constraint firstItem="LAN-nU-lmn" firstAttribute="top" secondItem="oc7-O0-s73" secondAttribute="bottom" constant="10" id="Jl0-Te-L8m"/>
                             <constraint firstItem="pFr-DP-gv6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MBg-JP-ufP"/>
                             <constraint firstItem="lhC-WV-SbQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ptm-SI-zSg"/>
                             <constraint firstItem="lhC-WV-SbQ" firstAttribute="top" secondItem="jyT-Pq-3C4" secondAttribute="bottom" constant="10" id="QRG-qR-QFx"/>
+                            <constraint firstItem="qJe-7l-NOc" firstAttribute="top" secondItem="zOI-mN-xXl" secondAttribute="bottom" constant="10" id="QnT-Lc-1yk"/>
+                            <constraint firstItem="oc7-O0-s73" firstAttribute="top" secondItem="qJe-7l-NOc" secondAttribute="bottom" constant="10" id="ZEO-UG-wpt"/>
+                            <constraint firstItem="zOI-mN-xXl" firstAttribute="top" secondItem="4Dx-ht-bUl" secondAttribute="bottom" constant="10" id="dG7-PS-k4Q"/>
                             <constraint firstItem="4Dx-ht-bUl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gMU-VE-F4G"/>
+                            <constraint firstItem="zOI-mN-xXl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hY6-dH-kGy"/>
                             <constraint firstItem="4Dx-ht-bUl" firstAttribute="top" secondItem="pFr-DP-gv6" secondAttribute="bottom" constant="10" id="lCZ-FY-iUc"/>
+                            <constraint firstItem="qJe-7l-NOc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m6u-mn-qEr"/>
+                            <constraint firstItem="LAN-nU-lmn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nJc-A1-XMc"/>
                             <constraint firstItem="jyT-Pq-3C4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tJB-en-bLZ"/>
                         </constraints>
                     </view>
