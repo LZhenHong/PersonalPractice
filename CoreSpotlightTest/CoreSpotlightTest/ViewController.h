@@ -9,6 +9,4 @@
 
 @interface ViewController : UITableViewController
 
-
 @end
-

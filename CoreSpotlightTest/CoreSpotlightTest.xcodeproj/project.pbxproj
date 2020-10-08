@@ -22,6 +22,11 @@
 		3429C925252098A50005BF02 /* spectre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3429C920252098A50005BF02 /* spectre.jpg */; };
 		3429C92F2520AC270005BF02 /* IndexRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429C92E2520AC270005BF02 /* IndexRequestHandler.m */; };
 		3429C9332520AC270005BF02 /* CoreSpotlightIndexExtensionTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3429C92B2520AC270005BF02 /* CoreSpotlightIndexExtensionTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34EF5133252F5F8800AF39E0 /* MovieInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF5132252F5F8800AF39E0 /* MovieInfo.m */; };
+		34EF513A252F625C00AF39E0 /* MovieInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF5139252F625C00AF39E0 /* MovieInfoViewModel.m */; };
+		34EF5141252F68F600AF39E0 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF5140252F68F600AF39E0 /* MovieTableViewCell.m */; };
+		34EF5148252F717700AF39E0 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF5147252F717700AF39E0 /* MovieDetailViewController.m */; };
+		34EF514F252F777E00AF39E0 /* CoreSpotlightHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF514E252F777E00AF39E0 /* CoreSpotlightHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,16 @@
 		3429C92D2520AC270005BF02 /* IndexRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexRequestHandler.h; sourceTree = "<group>"; };
 		3429C92E2520AC270005BF02 /* IndexRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexRequestHandler.m; sourceTree = "<group>"; };
 		3429C9302520AC270005BF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EF5131252F5F8800AF39E0 /* MovieInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieInfo.h; sourceTree = "<group>"; };
+		34EF5132252F5F8800AF39E0 /* MovieInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieInfo.m; sourceTree = "<group>"; };
+		34EF5138252F625C00AF39E0 /* MovieInfoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieInfoViewModel.h; sourceTree = "<group>"; };
+		34EF5139252F625C00AF39E0 /* MovieInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieInfoViewModel.m; sourceTree = "<group>"; };
+		34EF513F252F68F600AF39E0 /* MovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
+		34EF5140252F68F600AF39E0 /* MovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
+		34EF5146252F717700AF39E0 /* MovieDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		34EF5147252F717700AF39E0 /* MovieDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
+		34EF514D252F777E00AF39E0 /* CoreSpotlightHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreSpotlightHelper.h; sourceTree = "<group>"; };
+		34EF514E252F777E00AF39E0 /* CoreSpotlightHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreSpotlightHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				3429C8E025208AD60005BF02 /* SceneDelegate.m */,
 				3429C8E225208AD60005BF02 /* ViewController.h */,
 				3429C8E325208AD60005BF02 /* ViewController.m */,
+				34EF5146252F717700AF39E0 /* MovieDetailViewController.h */,
+				34EF5147252F717700AF39E0 /* MovieDetailViewController.m */,
+				34EF513F252F68F600AF39E0 /* MovieTableViewCell.h */,
+				34EF5140252F68F600AF39E0 /* MovieTableViewCell.m */,
+				34EF5138252F625C00AF39E0 /* MovieInfoViewModel.h */,
+				34EF5139252F625C00AF39E0 /* MovieInfoViewModel.m */,
+				34EF5131252F5F8800AF39E0 /* MovieInfo.h */,
+				34EF5132252F5F8800AF39E0 /* MovieInfo.m */,
+				34EF514D252F777E00AF39E0 /* CoreSpotlightHelper.h */,
+				34EF514E252F777E00AF39E0 /* CoreSpotlightHelper.m */,
 				3429C8E525208AD60005BF02 /* Main.storyboard */,
 				3429C8E825208AD90005BF02 /* Assets.xcassets */,
 				3429C8EA25208AD90005BF02 /* LaunchScreen.storyboard */,
@@ -256,10 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EF5148252F717700AF39E0 /* MovieDetailViewController.m in Sources */,
 				3429C8E425208AD60005BF02 /* ViewController.m in Sources */,
+				34EF514F252F777E00AF39E0 /* CoreSpotlightHelper.m in Sources */,
+				34EF5141252F68F600AF39E0 /* MovieTableViewCell.m in Sources */,
+				34EF5133252F5F8800AF39E0 /* MovieInfo.m in Sources */,
 				3429C8DE25208AD60005BF02 /* AppDelegate.m in Sources */,
 				3429C8EF25208AD90005BF02 /* main.m in Sources */,
 				3429C8E125208AD60005BF02 /* SceneDelegate.m in Sources */,
+				34EF513A252F625C00AF39E0 /* MovieInfoViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
