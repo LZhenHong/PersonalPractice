@@ -18,6 +18,9 @@
 2. [What’s New With UISearchController and UISearchBar][9]
 3. [UISearchController][10]
 
+## Timer 教程
+1. [iOS Timer Tutorial][11]
+
 [1]: https://www.raywenderlich.com/5229-undomanager-tutorial-how-to-implement-with-swift-value-types
 [2]: https://nshipster.cn/nsundomanager/
 [3]: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/UndoArchitecture/Articles/UndoManager.html#//apple_ref/doc/uid/20000205-CJBDJCCJ
@@ -28,3 +31,4 @@
 [8]: https://www.raywenderlich.com/4363809-uisearchcontroller-tutorial-getting-started
 [9]: https://www.raywenderlich.com/9218753-what-s-new-with-uisearchcontroller-and-uisearchbar
 [10]: https://developer.apple.com/documentation/uikit/uisearchcontroller?language=objc
+[11]: https://www.raywenderlich.com/113835-ios-timer-tutorial
