@@ -9,6 +9,7 @@
 #import "MovieInfoViewModel.h"
 #import "MovieTableViewCell.h"
 #import "MovieDetailViewController.h"
+#import "CoreSpotlightHelper.h"
 
 @interface ViewController ()
 
@@ -45,15 +46,30 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    NSArray<__kindof MovieInfo *> *movieInfos = [[MovieInfoViewModel sharedViewModel] grabAllMovieInfos];
+    MovieInfo *movieInfo = movieInfos[indexPath.row];
+    [self performSegueWithIdentifier:@"MovieListToDetail" sender:movieInfo];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    MovieTableViewCell *cell = sender;
-    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
-    NSArray<MovieInfo *> *movieInfos = [[MovieInfoViewModel sharedViewModel] grabAllMovieInfos];
-    MovieInfo *movieInfo = movieInfos[indexPath.row];
+    MovieInfo *movieInfo = sender;
     MovieDetailViewController *movieDetailVc = segue.destinationViewController;
     movieDetailVc.movieInfo = movieInfo;
+}
+
+- (IBAction)indexMoviesToCoreSpotlight:(UIBarButtonItem *)sender {
+    NSArray<__kindof MovieInfo *> *movieInfos = [[MovieInfoViewModel sharedViewModel] grabAllMovieInfos];
+    for (MovieInfo *movieInfo in movieInfos) {
+        [CoreSpotlightHelper indexMovieInfo:movieInfo];
+    }
+}
+
+- (IBAction)deindexMoviesFromCoreSpotlight:(UIBarButtonItem *)sender {
+    NSArray<__kindof MovieInfo *> *movieInfos = [[MovieInfoViewModel sharedViewModel] grabAllMovieInfos];
+    for (MovieInfo *movieInfo in movieInfos) {
+        [CoreSpotlightHelper deindexMovieInfo:movieInfo];
+    }
 }
 
 @end

@@ -27,4 +27,22 @@
     return [[self alloc] initWithJSONData:jsonData];
 }
 
+- (NSString *)searchableUniqueIndentifier {
+    NSString *idPrefix = @"com.eden.corespotlightexample.movie_";
+    return [NSString stringWithFormat:@"%@%tu", idPrefix, _movieDescription.length];
+}
+
+- (NSArray<NSString *> *)searchKeywords {
+    NSMutableArray *keywords = [NSMutableArray array];
+    [keywords addObject:_title];
+    
+    NSArray<NSString *> *categories = [_category componentsSeparatedByString:@", "];
+    [keywords addObjectsFromArray:categories];
+    
+    NSArray<NSString *> *stars = [_stars componentsSeparatedByString:@", "];
+    [keywords addObjectsFromArray:stars];
+    
+    return [keywords copy];
+}
+
 @end

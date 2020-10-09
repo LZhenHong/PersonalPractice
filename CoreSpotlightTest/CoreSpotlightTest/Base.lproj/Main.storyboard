@@ -90,7 +90,6 @@
                                     <outlet property="movieRating" destination="lvU-1V-I46" id="6KG-YK-Whg"/>
                                     <outlet property="movieStars" destination="RNm-0A-qw5" id="ohJ-qK-vlk"/>
                                     <outlet property="movieTitle" destination="xtg-zR-MEJ" id="2cE-FR-rzY"/>
-                                    <segue destination="dzN-sX-two" kind="show" id="qgv-Na-QDd"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -99,7 +98,21 @@
                             <outlet property="delegate" destination="F1p-Mb-8wK" id="BjM-GG-QR5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Movies" id="RHv-pe-fKD"/>
+                    <navigationItem key="navigationItem" title="Movies" id="RHv-pe-fKD">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="KLp-lk-Mdq">
+                            <connections>
+                                <action selector="deindexMoviesFromCoreSpotlight:" destination="F1p-Mb-8wK" id="CQY-a2-UDq"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="QRI-PG-TXe">
+                            <connections>
+                                <action selector="indexMoviesToCoreSpotlight:" destination="F1p-Mb-8wK" id="OpP-RS-4gQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="dzN-sX-two" kind="show" identifier="MovieListToDetail" id="A2v-I3-zJj"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfR-W0-S1c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,7 +173,7 @@
                                 <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrY-vW-Wtt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrY-vW-Wtt">
                                 <rect key="frame" x="188.5" y="495" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" systemColor="systemGrayColor"/>

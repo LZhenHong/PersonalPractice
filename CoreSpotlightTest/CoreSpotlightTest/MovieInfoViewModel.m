@@ -34,6 +34,20 @@
     self.movieInfos = [movieInfos copy];
 }
 
+- (MovieInfo * _Nullable)movieInfoForSearchIdentifier:(NSString *)identifier {
+    if (!self.movieInfos || !self.movieInfos.count) {
+        [self startLoadAllMovieInfos];
+    }
+    
+    for (MovieInfo *movieInfo in self.movieInfos) {
+        if ([[movieInfo searchableUniqueIndentifier] isEqualToString:identifier]) {
+            return movieInfo;
+        }
+    }
+    
+    return NULL;
+}
+
 - (NSArray<MovieInfo *> *)grabAllMovieInfos {
     return self.movieInfos;
 }

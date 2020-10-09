@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithJSONData:(NSDictionary * _Nonnull)jsonData;
 + (instancetype)movieInfoWithJSONData:(NSDictionary * _Nonnull)jsonData;
 
+- (NSString *)searchableUniqueIndentifier;
+- (NSArray<__kindof NSString *> *)searchKeywords;
+
 @end
 
 NS_ASSUME_NONNULL_END

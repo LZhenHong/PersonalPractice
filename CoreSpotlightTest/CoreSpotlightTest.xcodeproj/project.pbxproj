@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3429C8DE25208AD60005BF02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429C8DD25208AD60005BF02 /* AppDelegate.m */; };
-		3429C8E125208AD60005BF02 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429C8E025208AD60005BF02 /* SceneDelegate.m */; };
 		3429C8E425208AD60005BF02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429C8E325208AD60005BF02 /* ViewController.m */; };
 		3429C8E725208AD60005BF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3429C8E525208AD60005BF02 /* Main.storyboard */; };
 		3429C8E925208AD90005BF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3429C8E825208AD90005BF02 /* Assets.xcassets */; };
@@ -57,8 +56,6 @@
 		3429C8D925208AD60005BF02 /* CoreSpotlightTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreSpotlightTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3429C8DC25208AD60005BF02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3429C8DD25208AD60005BF02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3429C8DF25208AD60005BF02 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3429C8E025208AD60005BF02 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3429C8E225208AD60005BF02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3429C8E325208AD60005BF02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3429C8E625208AD60005BF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 				3429C918252098860005BF02 /* Data */,
 				3429C8DC25208AD60005BF02 /* AppDelegate.h */,
 				3429C8DD25208AD60005BF02 /* AppDelegate.m */,
-				3429C8DF25208AD60005BF02 /* SceneDelegate.h */,
-				3429C8E025208AD60005BF02 /* SceneDelegate.m */,
 				3429C8E225208AD60005BF02 /* ViewController.h */,
 				3429C8E325208AD60005BF02 /* ViewController.m */,
 				34EF5146252F717700AF39E0 /* MovieDetailViewController.h */,
@@ -288,7 +283,6 @@
 				34EF5133252F5F8800AF39E0 /* MovieInfo.m in Sources */,
 				3429C8DE25208AD60005BF02 /* AppDelegate.m in Sources */,
 				3429C8EF25208AD90005BF02 /* main.m in Sources */,
-				3429C8E125208AD60005BF02 /* SceneDelegate.m in Sources */,
 				34EF513A252F625C00AF39E0 /* MovieInfoViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,7 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LZH.CoreSpotlightTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,7 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.LZH.CoreSpotlightTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

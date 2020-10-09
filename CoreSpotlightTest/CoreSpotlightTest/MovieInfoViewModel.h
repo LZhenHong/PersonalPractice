@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSUInteger)movieInfoCount;
 
+- (MovieInfo * _Nullable)movieInfoForSearchIdentifier:(NSString *)identifier;
+
 + (instancetype)sharedViewModel;
 
 @end

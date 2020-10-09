@@ -9,6 +9,8 @@
 
 @implementation IndexRequestHandler
 
+// 这个 Spotlight 扩展用来在应用处于后台或者被杀掉进程时，可以不打开 App 来更新 Spotlight Index
+
 - (void)searchableIndex:(CSSearchableIndex *)searchableIndex reindexAllSearchableItemsWithAcknowledgementHandler:(void (^)(void))acknowledgementHandler {
     // Reindex all data with the provided index
     
