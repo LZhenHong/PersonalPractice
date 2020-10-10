@@ -36,9 +36,9 @@ class TaskListViewController: UIViewController {
   
   var timer: Timer?
   
-  var animationTimer: Timer?
-  var startTime: TimeInterval?
-  var endTime: TimeInterval?
+  var displayLink: CADisplayLink?
+  var startTime: CFTimeInterval?
+  var endTime: CFTimeInterval?
   var animationDuration = 3.0
   var height: CGFloat = 0
   
@@ -59,6 +59,8 @@ extension TaskListViewController: UITableViewDelegate {
     }
     
     cell.updateState()
+    
+    showCongratulationAnimation()
   }
 }
 
@@ -149,30 +151,46 @@ extension TaskListViewController {
       }
     }
   }
+  
+  func cancelTimer() {
+    timer?.invalidate()
+    timer = nil
+  }
 }
 
 extension TaskListViewController {
+  func showCongratulationsIfNeeded() {
+    if taskList.filter({
+      !$0.completed
+    }).count == 0 {
+      showCongratulationAnimation()
+      cancelTimer()
+    } else {
+      createTimer()
+    }
+  }
+  
   func showCongratulationAnimation() {
     height = UIScreen.main.bounds.height + balloon.frame.height
     balloon.center = CGPoint(x: UIScreen.main.bounds.width * 0.5, y: balloon.frame.height * 0.5 + height)
     balloon.isHidden = false
     
-    startTime = Date().timeIntervalSince1970
+    startTime = CACurrentMediaTime()
     endTime = startTime! + animationDuration
     
-    animationTimer = Timer.scheduledTimer(withTimeInterval: 1 / 60, repeats: true) { timer in
-      self.updateAnimation()
-    }
+    displayLink = CADisplayLink(target: self, selector: #selector(updateAnimation))
+    displayLink?.add(to: .main, forMode: .common)
   }
   
-  func updateAnimation() {
+  @objc func updateAnimation() {
     guard let startTime = startTime, let endTime = endTime else {
       return
     }
-    let now = Date().timeIntervalSince1970
+    let now = CACurrentMediaTime()
     
     if now >= endTime {
-      animationTimer?.invalidate()
+      displayLink?.isPaused = true
+      displayLink?.invalidate()
       balloon.isHidden = true
     }
     
