@@ -21,6 +21,11 @@
 ## Timer 教程
 1. [iOS Timer Tutorial][11]
 
+## Context Menu
+1. [Peek and Pop With 3D Touch][12]
+2. [Adding Context Menus In iOS 13][13]
+3. [Context Menus Tutorial for iOS: Getting Started][14]
+
 [1]: https://www.raywenderlich.com/5229-undomanager-tutorial-how-to-implement-with-swift-value-types
 [2]: https://nshipster.cn/nsundomanager/
 [3]: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/UndoArchitecture/Articles/UndoManager.html#//apple_ref/doc/uid/20000205-CJBDJCCJ
@@ -32,3 +37,6 @@
 [9]: https://www.raywenderlich.com/9218753-what-s-new-with-uisearchcontroller-and-uisearchbar
 [10]: https://developer.apple.com/documentation/uikit/uisearchcontroller?language=objc
 [11]: https://www.raywenderlich.com/113835-ios-timer-tutorial
+[12]: https://www.raywenderlich.com/6794-peek-and-pop-with-3d-touch
+[13]: https://useyourloaf.com/blog/adding-context-menus-in-ios-13/
+[14]: https://www.raywenderlich.com/6328155-context-menus-tutorial-for-ios-getting-started
