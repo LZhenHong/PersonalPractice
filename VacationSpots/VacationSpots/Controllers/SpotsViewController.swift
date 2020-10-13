@@ -91,4 +91,42 @@ class SpotsViewController: UITableViewController {
     
     return cell
   }
+  
+  override func tableView(_ tableView: UITableView, contextMenuConfigurationForRowAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
+    let index = indexPath.row
+    let vacationSpot = vacationSpots[index]
+    let identifier = "\(index)" as NSString
+    return UIContextMenuConfiguration(identifier: identifier, previewProvider: nil) { _ in
+      let mapAction = UIAction(title: "View Map", image: UIImage(systemName: "map")) { _ in
+        self.showMap(vacationSpot: vacationSpot)
+      }
+      
+      let shareAction = UIAction(title: "Share", image: UIImage(systemName: "square.and.arrow.up")) { _ in
+        VacationSharer.share(vacationSpot: vacationSpot, in: self)
+      }
+      
+      return UIMenu(title: "", image: nil, children: [mapAction, shareAction])
+    }
+  }
+  
+  override func tableView(_ tableView: UITableView, previewForHighlightingContextMenuWithConfiguration configuration: UIContextMenuConfiguration) -> UITargetedPreview? {
+    guard let identifier = configuration.identifier as? String,
+          let index = Int(identifier),
+          let cell = tableView.cellForRow(at: IndexPath(row: index, section: 0)) as? VacationSpotCell else {
+      return nil
+    }
+    
+    return UITargetedPreview(view: cell.thumbnailImageView)
+  }
+  
+  override func tableView(_ tableView: UITableView, willPerformPreviewActionForMenuWith configuration: UIContextMenuConfiguration, animator: UIContextMenuInteractionCommitAnimating) {
+    guard let identifier = configuration.identifier as? String,
+          let index = Int(identifier) else {
+      return
+    }
+    let cell = tableView.cellForRow(at: IndexPath(row: index, section: 0))
+    animator.addCompletion {
+      self.performSegue(withIdentifier: "showSpotInfoViewController", sender: cell)
+    }
+  }
 }

@@ -86,6 +86,9 @@ class SpotInfoViewController: UIViewController {
     
     updateWeatherInfoViews(hideWeatherInfo: shouldHideWeatherInfoSetting,
                            animated: false)
+    
+    let interaction = UIContextMenuInteraction(delegate: self)
+    submitRatingButton.addInteraction(interaction)
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -170,5 +173,60 @@ class SpotInfoViewController: UIViewController {
 extension SpotInfoViewController: SFSafariViewControllerDelegate {
   func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
     controller.dismiss(animated: true, completion: nil)
+  }
+}
+
+// MARK: - UIContextMenuInteractionDelegate
+
+extension SpotInfoViewController: UIContextMenuInteractionDelegate {
+  func contextMenuInteraction(_ interaction: UIContextMenuInteraction, configurationForMenuAtLocation location: CGPoint) -> UIContextMenuConfiguration? {
+    return UIContextMenuConfiguration(identifier: nil, previewProvider: makePreview) { _ in
+      let removeRating = self.makeRemoveRatingAction()
+      let rateMenu = self.makeRateMenu()
+      let children = [rateMenu, removeRating]
+      return UIMenu(title: "", children: children)
+    }
+  }
+  
+  func makeRateMenu() -> UIMenu {
+    let ratingButtonTitles = ["Boring", "Meh", "It's OK", "Like It", "Fantastic!"]
+    
+    let rateActions = ratingButtonTitles.enumerated().map { index, title in
+      UIAction(title: title, identifier: UIAction.Identifier("\(index + 1)"), handler: updateRating)
+    }
+    return UIMenu(title: "Rate...", image: UIImage(systemName: "star.circle"), options: .displayInline, children: rateActions)
+  }
+  
+  func makeRemoveRatingAction() -> UIAction {
+    var removeRatingAttributes = UIMenuElement.Attributes.destructive
+    
+    if currentUserRating == 0 {
+      removeRatingAttributes.insert(.disabled)
+    }
+    
+    let deleteImage = UIImage(systemName: "delete.left")
+    return UIAction(title: "Remove Rating",
+                    image: deleteImage,
+                    identifier: nil,
+                    attributes: removeRatingAttributes) { _ in
+      self.currentUserRating = 0
+    }
+  }
+  
+  func updateRating(from action: UIAction) {
+    guard let number = Int(action.identifier.rawValue) else {
+      return
+    }
+    currentUserRating = number
+  }
+  
+  func makePreview() -> UIViewController {
+    let viewController = UIViewController()
+    let imageView = UIImageView(image: UIImage(named: "rating_star"))
+    imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+    imageView.translatesAutoresizingMaskIntoConstraints = false
+    viewController.view = imageView
+    viewController.preferredContentSize = imageView.frame.size
+    return viewController
   }
 }
