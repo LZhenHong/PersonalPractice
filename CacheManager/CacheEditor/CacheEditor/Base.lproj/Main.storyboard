@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cache Detail View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CacheDetailViewController" customModule="CacheEditor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fjc-Ui-nsZ">
+                                <rect key="frame" x="40" y="40" width="688" height="38"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameTextFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="ZqD-u0-4Yf"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7iT-sa-kdH">
+                                <rect key="frame" x="40" y="98" width="688" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="rHn-4M-6H6"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="P5v-ds-R62"/>
+                                </connections>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o1D-0Z-hy0">
+                                <rect key="frame" x="40" y="208" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o1D-0Z-hy0" secondAttribute="height" multiplier="1:1" id="rLo-US-SoE"/>
+                                </constraints>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TBT-Id-yL9">
+                                <rect key="frame" x="453" y="208" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TBT-Id-yL9" secondAttribute="height" multiplier="1:1" id="o0T-cc-LYw"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TBT-Id-yL9" firstAttribute="top" secondItem="7iT-sa-kdH" secondAttribute="bottom" constant="40" id="6QU-kQ-mGR"/>
+                            <constraint firstItem="Fjc-Ui-nsZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8fe-G9-j1E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fjc-Ui-nsZ" secondAttribute="trailing" constant="40" id="DI1-RP-K8N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TBT-Id-yL9" secondAttribute="trailing" constant="40" id="L3f-8X-Otj"/>
+                            <constraint firstItem="7iT-sa-kdH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="NPV-b2-T2Z"/>
+                            <constraint firstItem="Fjc-Ui-nsZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="NX4-5E-Bpi"/>
+                            <constraint firstItem="o1D-0Z-hy0" firstAttribute="width" secondItem="TBT-Id-yL9" secondAttribute="width" id="Ppd-fa-Xim"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7iT-sa-kdH" secondAttribute="trailing" constant="40" id="RhV-fe-r68"/>
+                            <constraint firstItem="o1D-0Z-hy0" firstAttribute="width" secondItem="7iT-sa-kdH" secondAttribute="width" multiplier="0.4" id="Un0-cy-uQZ"/>
+                            <constraint firstItem="o1D-0Z-hy0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="jH2-cN-5UY"/>
+                            <constraint firstItem="o1D-0Z-hy0" firstAttribute="top" secondItem="7iT-sa-kdH" secondAttribute="bottom" constant="40" id="m44-rO-s3c"/>
+                            <constraint firstItem="7iT-sa-kdH" firstAttribute="top" secondItem="Fjc-Ui-nsZ" secondAttribute="bottom" constant="20" id="nJs-0s-Chx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cacheImageView" destination="o1D-0Z-hy0" id="sXr-3f-osP"/>
+                        <outlet property="cacheNameTextField" destination="Fjc-Ui-nsZ" id="wcQ-Kh-pUo"/>
+                        <outlet property="cacheSummaryTextView" destination="7iT-sa-kdH" id="hyn-gM-kei"/>
+                        <outlet property="mapView" destination="TBT-Id-yL9" id="bnk-oX-MfQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19.765739385065885" y="13.4765625"/>
+        </scene>
+    </scenes>
+</document>

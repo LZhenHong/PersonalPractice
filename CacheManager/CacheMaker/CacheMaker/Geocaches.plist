@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Old Faithful</string>
+		<key>summary</key>
+		<string>Old Faithful is a cone geyser located in Yellowstone National Park in Wyoming, United States. It was named in 1870 during the Washburn-Langford-Doane Expedition and was the first geyser in the park to receive a name. It is a highly predictable geothermal feature, and has erupted every 44 to 125 minutes since 2000.</string>
+		<key>latitude</key>
+		<real>44.460479</real>
+		<key>longitude</key>
+		<real>-110.828138</real>
+		<key>imageName</key>
+		<string>old_faithful</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Statue of Liberty</string>
+		<key>summary</key>
+		<string>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York, in the United States.</string>
+		<key>latitude</key>
+		<real>40.689249</real>
+		<key>longitude</key>
+		<real>-74.0445</real>
+		<key>imageName</key>
+		<string>statue_of_liberty</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Martin Luther King Jr. Memorial</string>
+		<key>summary</key>
+		<string>The Martin Luther King Jr . Memorial is located in West Potomac Park next to the National Mall in Washington, D.C., United States. It covers four acres and includes the Stone of Hope, a granite statue of Civil Rights Movement leader Martin Luther King carved by sculptor Lei Yixin.</string>
+		<key>latitude</key>
+		<real>38.886111</real>
+		<key>longitude</key>
+		<real>-77.044167</real>
+		<key>imageName</key>
+		<string>mlk_memorial</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Colosseum</string>
+		<key>summary</key>
+		<string>The Colosseum or Coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine, tuff, and brick-faced concrete, it is the largest amphitheatre ever built.</string>
+		<key>latitude</key>
+		<real>41.89021</real>
+		<key>longitude</key>
+		<real>12.492231</real>
+		<key>imageName</key>
+		<string>colosseum</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grand Canyon</string>
+		<key>summary</key>
+		<string>Grand Canyon National Park, in Arizona, is home to much of the immense Grand Canyon, with its layered bands of red rock revealing millions of years of geological history. Viewpoints include Mather Point, Yavapai Observation Station and architect Mary Colter’s Lookout Studio and her Desert View Watchtower. Lipan Point, with wide views of the canyon and Colorado River, is a popular, especially at sunrise and sunset.</string>
+		<key>latitude</key>
+		<real>36.055261</real>
+		<key>longitude</key>
+		<real>-112.121836</real>
+		<key>imageName</key>
+		<string>grand_canyon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Temple of Olympian Zeus</string>
+		<key>summary</key>
+		<string>The Temple of Olympian Zeus, also known as the Olympieion or Columns of the Olympian Zeus, is a former colossal temple at the center of the Greek capital Athens. It was dedicated to &quot;Olympian&quot; Zeus, a name originating from his position as head of the Olympian gods.</string>
+		<key>latitude</key>
+		<real>37.969372</real>
+		<key>longitude</key>
+		<real>23.733078</real>
+		<key>imageName</key>
+		<string>olympieion</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Space Needle</string>
+		<key>summary</key>
+		<string>The Space Needle is an observation tower in Seattle, Washington, United States. It is a landmark of the Pacific Northwest and an icon of Seattle. It was built in the Seattle Center for the 1962 World&apos;s Fair, which drew over 2.3 million visitors. Nearly 20,000 people a day used its elevators during the event.</string>
+		<key>latitude</key>
+		<real>47.6204</real>
+		<key>longitude</key>
+		<real>-122.3491</real>
+		<key>imageName</key>
+		<string>space_needle</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jökulsárlón Glacier Lagoon</string>
+		<key>summary</key>
+		<string>Jökulsárlón is a glacial lagoon, bordering Vatnajökull National Park in southeastern Iceland. Its still, blue waters are dotted with icebergs from the surrounding Breiðamerkurjökull Glacier, part of larger Vatnajökull Glacier. The Glacier Lagoon flows through a short waterway into the Atlantic Ocean, leaving chunks of ice on a black sand beach. In winter, the fish-filled lagoon hosts hundreds of seals.</string>
+		<key>latitude</key>
+		<real>64.070278</real>
+		<key>longitude</key>
+		<real>-16.211667</real>
+		<key>imageName</key>
+		<string>jokulsarlon</string>
+	</dict>
+</array>
+</plist>
