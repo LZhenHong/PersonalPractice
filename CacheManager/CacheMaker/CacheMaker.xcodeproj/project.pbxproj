@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34EBB902253D3F3D00AB71E8 /* CacheDragCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBB901253D3F3D00AB71E8 /* CacheDragCoordinator.swift */; };
 		CB91AC80222CC7E30013FA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91AC7F222CC7E30013FA42 /* AppDelegate.swift */; };
 		CB91AC82222CC7E30013FA42 /* CachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91AC81222CC7E30013FA42 /* CachesViewController.swift */; };
 		CB91AC85222CC7E30013FA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB91AC83222CC7E30013FA42 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34EBB901253D3F3D00AB71E8 /* CacheDragCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDragCoordinator.swift; sourceTree = "<group>"; };
 		CB91AC7C222CC7E30013FA42 /* CacheMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CacheMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB91AC7F222CC7E30013FA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB91AC81222CC7E30013FA42 /* CachesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachesViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				CB91AC7F222CC7E30013FA42 /* AppDelegate.swift */,
 				CB91AC81222CC7E30013FA42 /* CachesViewController.swift */,
+				34EBB901253D3F3D00AB71E8 /* CacheDragCoordinator.swift */,
 				CBA7C39B22358FF2009EA301 /* CacheCell.swift */,
 				CBCEBDB9223650DC00B22C29 /* CachesDataSource.swift */,
 				CBCEBDBB2236553200B22C29 /* RotatingFlowLayout.swift */,
@@ -173,6 +176,7 @@
 				CBCEBDBC2236553200B22C29 /* RotatingFlowLayout.swift in Sources */,
 				CB91AC80222CC7E30013FA42 /* AppDelegate.swift in Sources */,
 				CBCEBDBA223650DC00B22C29 /* CachesDataSource.swift in Sources */,
+				34EBB902253D3F3D00AB71E8 /* CacheDragCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

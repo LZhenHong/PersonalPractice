@@ -51,6 +51,10 @@ class CacheDetailViewController: UIViewController {
   // MARK: - Lifecycle methods
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    view.addInteraction(UIDragInteraction(delegate: self))
+    view.addInteraction(UIDropInteraction(delegate: self))
+    
     configureView()
   }
 
@@ -94,6 +98,35 @@ extension CacheDetailViewController: UITextViewDelegate {
   func textViewDidChange(_ textView: UITextView) {
     if let summary = textView.text {
       geocache.summary = summary
+    }
+  }
+}
+
+extension CacheDetailViewController: UIDragInteractionDelegate {
+  func dragInteraction(_ interaction: UIDragInteraction, itemsForBeginning session: UIDragSession) -> [UIDragItem] {
+    let itemProvider = NSItemProvider(object: geocache)
+    let dragItem = UIDragItem(itemProvider: itemProvider)
+    return [dragItem]
+  }
+}
+
+extension CacheDetailViewController: UIDropInteractionDelegate {
+  func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
+    return session.canLoadObjects(ofClass: Geocache.self)
+  }
+  
+  // This method is called when the user drags an item over the drop interaction’s view.
+  func dropInteraction(_ interaction: UIDropInteraction, sessionDidUpdate session: UIDropSession) -> UIDropProposal {
+    return UIDropProposal(operation: .copy)
+  }
+  
+  func dropInteraction(_ interaction: UIDropInteraction, performDrop session: UIDropSession) {
+    session.loadObjects(ofClass: Geocache.self) { items in
+      if let geocaches = items as? [Geocache],
+         let geocache = geocaches.first {
+        self.geocache = geocache
+        self.configureView()
+      }
     }
   }
 }

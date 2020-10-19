@@ -62,3 +62,31 @@ class CachesDataSource: NSObject, UICollectionViewDataSource {
     return cell
   }
 }
+
+extension CachesDataSource {
+  func dragItems(for indexPath: IndexPath) -> [UIDragItem] {
+    let geocache = geocaches[indexPath.item]
+    let itemProvider = NSItemProvider(object: geocache)
+    let dragItem = UIDragItem(itemProvider: itemProvider)
+    dragItem.localObject = geocache
+    return [dragItem]
+  }
+  
+  func addGeocache(_ newGeocache: Geocache, at index: Int) {
+    geocaches.insert(newGeocache, at: index)
+  }
+  
+  func moveGeocache(at sourceIndex: Int, to destinationIndex: Int) {
+    guard sourceIndex != destinationIndex else {
+      return
+    }
+    
+    let geocache = geocaches[sourceIndex]
+    geocaches.remove(at: sourceIndex)
+    geocaches.insert(geocache, at: destinationIndex)
+  }
+  
+  func deleteGeocache(at index: Int) {
+    geocaches.remove(at: index)
+  }
+}
