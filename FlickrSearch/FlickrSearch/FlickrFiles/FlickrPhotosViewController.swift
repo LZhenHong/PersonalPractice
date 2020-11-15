@@ -36,6 +36,28 @@ final class FlickrPhotosViewController: UICollectionViewController {
   private var searches: [FlickrSearchResults] = []
   private let flickr = Flickr()
   private let itemsPerRow: CGFloat = 3
+  
+  var largePhotoIndexPath: IndexPath? {
+    didSet {
+      var indexPaths: [IndexPath] = []
+      if let largePhotoIndexPath = largePhotoIndexPath {
+        indexPaths.append(largePhotoIndexPath)
+      }
+      
+      if let oldValue = oldValue {
+        indexPaths.append(oldValue)
+      }
+      
+      collectionView.performBatchUpdates {
+        self.collectionView.reloadItems(at: indexPaths)
+      } completion: { _ in
+        if let largePhotoIndexPath = self.largePhotoIndexPath {
+          self.collectionView.scrollToItem(at: largePhotoIndexPath, at: .centeredVertically, animated: true)
+        }
+      }
+
+    }
+  }
 
 }
 
@@ -85,11 +107,45 @@ extension FlickrPhotosViewController {
     cell.imageView.image = flickrPhoto.thumbnail
     return cell
   }
+  
+  override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+    switch kind {
+    case UICollectionView.elementKindSectionHeader:
+      guard let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "\(FlickrPhotoHeaderView.self)", for: indexPath) as? FlickrPhotoHeaderView else {
+        fatalError("Invalid view type")
+      }
+      let searchTerm = searches[indexPath.row].searchTerm
+      headerView.label.text = searchTerm
+      return headerView
+    default:
+      assert(false, "Invalid element type")
+    }
+  }
+}
+
+// MARK: - UICollectionViewDelegate
+extension FlickrPhotosViewController {
+  override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
+    if largePhotoIndexPath == indexPath {
+      largePhotoIndexPath = nil
+    } else {
+      largePhotoIndexPath = indexPath
+    }
+    return false
+  }
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout
 extension FlickrPhotosViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    if indexPath == largePhotoIndexPath {
+      let flickrPhoto = photo(for: indexPath)
+      var size = collectionView.bounds.size
+      size.height -= (sectionInsets.top + sectionInsets.bottom)
+      size.width -= (sectionInsets.left + sectionInsets.right)
+      return flickrPhoto.sizeToFillWidth(of: size)
+    }
+    
     let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
     let availableWidth = view.frame.width - paddingSpace
     let widthPerItem = availableWidth / itemsPerRow
