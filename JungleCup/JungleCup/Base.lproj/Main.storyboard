@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="frB-9P-hsQ">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="frB-9P-hsQ">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,8 +14,8 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="i70-hy-zM0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sco-eg-fpY">
+                        <color key="backgroundColor" systemColor="darkTextColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sco-eg-fpY" customClass="CustomLayout" customModule="JungleCup" customModuleProvider="target">
                             <size key="itemSize" width="300" height="250"/>
                             <size key="headerReferenceSize" width="0.0" height="50"/>
                             <size key="footerReferenceSize" width="0.0" height="50"/>
@@ -32,16 +30,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wdg-p1-MbT">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="250"/>
+                                            <rect key="frame" x="0.0" y="-60" width="300" height="370"/>
                                         </imageView>
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Wdg-p1-MbT" firstAttribute="top" secondItem="Dpo-SR-S5R" secondAttribute="top" id="1U0-pu-TLY"/>
+                                    <constraint firstItem="Wdg-p1-MbT" firstAttribute="top" secondItem="Dpo-SR-S5R" secondAttribute="top" constant="-60" id="1U0-pu-TLY"/>
                                     <constraint firstAttribute="trailing" secondItem="Wdg-p1-MbT" secondAttribute="trailing" id="JFJ-hE-tgD"/>
                                     <constraint firstItem="Wdg-p1-MbT" firstAttribute="leading" secondItem="Dpo-SR-S5R" secondAttribute="leading" id="Zoe-71-yAb"/>
-                                    <constraint firstAttribute="bottom" secondItem="Wdg-p1-MbT" secondAttribute="bottom" id="sym-Fk-noN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wdg-p1-MbT" secondAttribute="bottom" constant="-60" id="sym-Fk-noN"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="picture" destination="Wdg-p1-MbT" id="dqe-el-Nd9"/>
@@ -53,7 +51,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tft-d8-jhD">
-                                    <rect key="frame" x="166" y="15" width="42" height="21"/>
+                                    <rect key="frame" x="166.5" y="14.5" width="42" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -99,4 +97,9 @@
             <point key="canvasLocation" x="-68" y="159.67016491754123"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
