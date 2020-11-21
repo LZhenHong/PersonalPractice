@@ -36,6 +36,18 @@
 9. [Drag and Drop with Collection and Table View 🎬](https://developer.apple.com/videos/play/wwdc2017/223/)
 10. [Data Delivery with Drag and Drop 🎬](https://developer.apple.com/videos/play/wwdc2017/227/)
 
+## UICollectionView
+1. [How to add custom swipe actions to a UICollectionViewListCell?](https://www.donnywals.com/how-to-add-custom-swipe-actions-to-a-uicollectionviewlistcell)
+2. [UICollectionView Tutorial: Getting Started](https://www.raywenderlich.com/9334-uicollectionview-tutorial-getting-started)
+3. [UICollectionView Tutorial: Reusable Views, Selection and Reordering](https://www.raywenderlich.com/9477-uicollectionview-tutorial-reusable-views-selection-and-reordering)
+4. [UICollectionView Tutorial: Prefetching APIs](https://www.raywenderlich.com/7341-uicollectionview-tutorial-prefetching-apis)
+5. [Custom UICollectionViewLayout Tutorial With Parallax](https://www.raywenderlich.com/527-custom-uicollectionviewlayout-tutorial-with-parallax)
+6. [iOS Tutorial: Collection View and Diffable Data Source](https://www.raywenderlich.com/8241072-ios-tutorial-collection-view-and-diffable-data-source)
+7. [Modern Collection Views with Compositional Layouts](https://www.raywenderlich.com/5436806-modern-collection-views-with-compositional-layouts)
+8. [UICollectionView Custom Layout Tutorial: Pinterest](https://www.raywenderlich.com/107439/uicollectionview-custom-layout-tutorial-pinterest)
+9. [Expanding Cells in iOS Collection Views](https://www.raywenderlich.com/7246-expanding-cells-in-ios-collection-views)
+10. [Collection View Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012334-CH1-SW1)
+
 [1]: https://www.raywenderlich.com/5229-undomanager-tutorial-how-to-implement-with-swift-value-types
 [2]: https://nshipster.cn/nsundomanager/
 [3]: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/UndoArchitecture/Articles/UndoManager.html#//apple_ref/doc/uid/20000205-CJBDJCCJ
