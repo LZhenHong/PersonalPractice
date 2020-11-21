@@ -32,9 +32,14 @@ class EmojiViewController: UICollectionViewController {
   let dataStore = DataStore()
   var ratingOverlayView: RatingOverlayView?
   var previewInteraction: UIPreviewInteraction?
+  
+  let loadingQueue = OperationQueue()
+  var loadingOperations: [IndexPath: DataLoadOperation] = [:]
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    collectionView.prefetchDataSource = self
     
     ratingOverlayView = RatingOverlayView(frame: view.bounds)
     guard let ratingOverlayView = ratingOverlayView else { return }
@@ -58,21 +63,15 @@ class EmojiViewController: UICollectionViewController {
 
 // MARK: - UICollectionViewDataSource
 extension EmojiViewController {
-  override func collectionView(_ collectionView: UICollectionView,
-                               numberOfItemsInSection section: Int) -> Int {
+  override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return dataStore.numberOfEmoji
   }
   
-  override func collectionView(_ collectionView: UICollectionView,
-      cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+  override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EmojiCell", for: indexPath)
     
     if let cell = cell as? EmojiViewCell {
       cell.updateAppearanceFor(.none, animated: false)
-      
-      if let emojiRating = dataStore.loadEmojiRating(at: indexPath.item) {
-        cell.updateAppearanceFor(emojiRating, animated: true)
-      }
     }
     return cell
   }
@@ -118,4 +117,71 @@ extension EmojiViewController: UIPreviewInteractionDelegate {
       ratingOverlayView?.updateAppearance(forCommitProgress: transitionProgress, touchLocation: hitPoint)
     }
   }
+}
+
+// MARK: - UICollectionViewDelegate
+extension EmojiViewController {
+  override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    guard let cell = cell as? EmojiViewCell else {
+      return
+    }
+    
+    let updateCellClosure: (EmojiRating?) -> Void = {
+      [weak self] emojiRating in
+      guard let self = self else {
+        return
+      }
+      
+      cell.updateAppearanceFor(emojiRating, animated: true)
+      self.loadingOperations.removeValue(forKey: indexPath)
+    }
+    
+    if let dataLoader = loadingOperations[indexPath] {
+      if let emojiRating = dataLoader.emojiRating {
+        cell.updateAppearanceFor(emojiRating, animated: false)
+        loadingOperations.removeValue(forKey: indexPath)
+      } else {
+        dataLoader.loadingCompleteHandler = updateCellClosure
+      }
+    } else {
+      if let dataLoader = dataStore.loadEmojiRating(at: indexPath.item) {
+        dataLoader.loadingCompleteHandler = updateCellClosure
+        loadingQueue.addOperation(dataLoader)
+        loadingOperations[indexPath] = dataLoader
+      }
+    }
+  }
+  
+  override func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    if let dataLoader = loadingOperations[indexPath] {
+      dataLoader.cancel()
+      loadingOperations.removeValue(forKey: indexPath)
+    }
+  }
+}
+
+// MARK: - UICollectionViewDataSourcePrefetching
+extension EmojiViewController: UICollectionViewDataSourcePrefetching {
+  
+  func collectionView(_ collectionView: UICollectionView, prefetchItemsAt indexPaths: [IndexPath]) {
+    for indexPath in indexPaths {
+      if let _ = loadingOperations[indexPath] {
+        continue
+      }
+      if let dataLoader = dataStore.loadEmojiRating(at: indexPath.item) {
+        loadingQueue.addOperation(dataLoader)
+        loadingOperations[indexPath] = dataLoader
+      }
+    }
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, cancelPrefetchingForItemsAt indexPaths: [IndexPath]) {
+    for indexPath in indexPaths {
+      if let dataLoader = loadingOperations[indexPath] {
+        dataLoader.cancel()
+        loadingOperations.removeValue(forKey: indexPath)
+      }
+    }
+  }
+  
 }

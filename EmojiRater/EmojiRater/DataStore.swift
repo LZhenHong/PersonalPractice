@@ -37,11 +37,9 @@ class DataStore {
     return emojiRatings.count
   }
   
-  public func loadEmojiRating(at index: Int) -> EmojiRating? {
+  public func loadEmojiRating(at index: Int) -> DataLoadOperation? {
     if (0..<emojiRatings.count).contains(index) {
-      let randomDelayTime = Int.random(in: 500..<2000)
-      usleep(useconds_t(randomDelayTime * 1000))
-      return emojiRatings[index]
+      return DataLoadOperation(emojiRatings[index])
     }
     return .none
   }
@@ -49,6 +47,38 @@ class DataStore {
   public func update(emojiRating: EmojiRating) {
     if let index = emojiRatings.firstIndex(where: { $0.emoji == emojiRating.emoji }) {
       emojiRatings.replaceSubrange(index...index, with: [emojiRating])
+    }
+  }
+}
+
+class DataLoadOperation: Operation {
+  var emojiRating: EmojiRating?
+  var loadingCompleteHandler: ((EmojiRating) -> Void)?
+    
+  private let _emojiRating: EmojiRating
+    
+  init(_ emojiRating: EmojiRating) {
+    _emojiRating = emojiRating
+  }
+    
+  override func main() {
+    if isCancelled {
+      return
+    }
+      
+    let randomDelayTime = Int.random(in: 500..<2000)
+    usleep(useconds_t(randomDelayTime * 100))
+    
+    if isCancelled {
+      return
+    }
+    
+    emojiRating = _emojiRating
+    
+    if let loadingCompleteHandler = loadingCompleteHandler {
+      DispatchQueue.main.async {
+        loadingCompleteHandler(self._emojiRating)
+      }
     }
   }
 }
