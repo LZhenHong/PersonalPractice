@@ -14,6 +14,7 @@
 		3490986E256D5E8000D5D861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3490986D256D5E8000D5D861 /* Assets.xcassets */; };
 		34909871256D5E8000D5D861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3490986F256D5E8000D5D861 /* LaunchScreen.storyboard */; };
 		34909874256D5E8000D5D861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34909873256D5E8000D5D861 /* main.m */; };
+		F2A40961258F7F8100A071DC /* UICollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A40960258F7F8100A071DC /* UICollectionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		34909870256D5E8000D5D861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34909872256D5E8000D5D861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34909873256D5E8000D5D861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2A4095F258F7F8100A071DC /* UICollectionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionTableViewController.h; sourceTree = "<group>"; };
+		F2A40960258F7F8100A071DC /* UICollectionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				34909865256D5E7C00D5D861 /* SceneDelegate.m */,
 				34909867256D5E7C00D5D861 /* ViewController.h */,
 				34909868256D5E7C00D5D861 /* ViewController.m */,
+				F2A4095F258F7F8100A071DC /* UICollectionTableViewController.h */,
+				F2A40960258F7F8100A071DC /* UICollectionTableViewController.m */,
 				3490986A256D5E7C00D5D861 /* Main.storyboard */,
 				3490986D256D5E8000D5D861 /* Assets.xcassets */,
 				3490986F256D5E8000D5D861 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				34909863256D5E7C00D5D861 /* AppDelegate.m in Sources */,
 				34909874256D5E8000D5D861 /* main.m in Sources */,
 				34909866256D5E7C00D5D861 /* SceneDelegate.m in Sources */,
+				F2A40961258F7F8100A071DC /* UICollectionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
