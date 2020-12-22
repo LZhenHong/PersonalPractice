@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "UICollectionTableViewController.h"
+#import "UICollectionGridViewController.h"
 
 @interface ViewController () <UICollectionViewDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -20,7 +21,8 @@
 - (NSArray<Class> *)collectionExampleControllerClasses {
     if (!_collectionExampleControllerClasses) {
         _collectionExampleControllerClasses = @[
-            [UICollectionTableViewController class]
+            [UICollectionTableViewController class],
+            [UICollectionGridViewController class]
         ];
     }
     return _collectionExampleControllerClasses;
