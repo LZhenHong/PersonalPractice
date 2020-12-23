@@ -17,6 +17,7 @@
 		F2A40961258F7F8100A071DC /* UICollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A40960258F7F8100A071DC /* UICollectionTableViewController.m */; };
 		F2C10BE325919B930062CF86 /* UICollectionGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C10BE225919B930062CF86 /* UICollectionGridViewController.m */; };
 		F2C10BE72591A6390062CF86 /* TextCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C10BE62591A6390062CF86 /* TextCollectionViewCell.m */; };
+		F2C10BEC2591C7150062CF86 /* UICollectionTwoColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C10BEB2591C7150062CF86 /* UICollectionTwoColumnViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		F2C10BE225919B930062CF86 /* UICollectionGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionGridViewController.m; sourceTree = "<group>"; };
 		F2C10BE52591A6390062CF86 /* TextCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextCollectionViewCell.h; sourceTree = "<group>"; };
 		F2C10BE62591A6390062CF86 /* TextCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextCollectionViewCell.m; sourceTree = "<group>"; };
+		F2C10BEA2591C7150062CF86 /* UICollectionTwoColumnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionTwoColumnViewController.h; sourceTree = "<group>"; };
+		F2C10BEB2591C7150062CF86 /* UICollectionTwoColumnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionTwoColumnViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				F2A40960258F7F8100A071DC /* UICollectionTableViewController.m */,
 				F2C10BE125919B930062CF86 /* UICollectionGridViewController.h */,
 				F2C10BE225919B930062CF86 /* UICollectionGridViewController.m */,
+				F2C10BEA2591C7150062CF86 /* UICollectionTwoColumnViewController.h */,
+				F2C10BEB2591C7150062CF86 /* UICollectionTwoColumnViewController.m */,
 				F2C10BE52591A6390062CF86 /* TextCollectionViewCell.h */,
 				F2C10BE62591A6390062CF86 /* TextCollectionViewCell.m */,
 				3490986A256D5E7C00D5D861 /* Main.storyboard */,
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C10BE325919B930062CF86 /* UICollectionGridViewController.m in Sources */,
+				F2C10BEC2591C7150062CF86 /* UICollectionTwoColumnViewController.m in Sources */,
 				34909869256D5E7C00D5D861 /* ViewController.m in Sources */,
 				F2C10BE72591A6390062CF86 /* TextCollectionViewCell.m in Sources */,
 				34909863256D5E7C00D5D861 /* AppDelegate.m in Sources */,

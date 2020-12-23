@@ -19,6 +19,8 @@
 
 - (void)_configure {
     self.contentView.backgroundColor = [UIColor systemBlueColor];
+    self.layer.borderWidth = 1;
+    self.layer.borderColor = [[UIColor blackColor] CGColor];
     
     _label = [[UILabel alloc] init];
     _label.adjustsFontForContentSizeCategory = YES;

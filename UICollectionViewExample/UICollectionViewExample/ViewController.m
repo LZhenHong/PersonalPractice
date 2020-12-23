@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "UICollectionTableViewController.h"
 #import "UICollectionGridViewController.h"
+#import "UICollectionTwoColumnViewController.h"
 
 @interface ViewController () <UICollectionViewDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -22,7 +23,8 @@
     if (!_collectionExampleControllerClasses) {
         _collectionExampleControllerClasses = @[
             [UICollectionTableViewController class],
-            [UICollectionGridViewController class]
+            [UICollectionGridViewController class],
+            [UICollectionTwoColumnViewController class]
         ];
     }
     return _collectionExampleControllerClasses;
@@ -32,6 +34,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"Main";
+    
     [self configureCollectionView];
     [self configureCollectionViewDataSource];
 }
