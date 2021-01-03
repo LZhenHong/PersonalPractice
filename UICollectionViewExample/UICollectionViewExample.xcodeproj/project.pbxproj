@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345D16F625A0F8630069D074 /* BadgeSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 345D16F525A0F8630069D074 /* BadgeSupplementaryView.m */; };
+		345D16FB25A19A310069D074 /* UICollectionSupplementaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345D16FA25A19A310069D074 /* UICollectionSupplementaryViewController.m */; };
 		34909863256D5E7C00D5D861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34909862256D5E7C00D5D861 /* AppDelegate.m */; };
 		34909866256D5E7C00D5D861 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34909865256D5E7C00D5D861 /* SceneDelegate.m */; };
 		34909869256D5E7C00D5D861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34909868256D5E7C00D5D861 /* ViewController.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345D16F425A0F8630069D074 /* BadgeSupplementaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadgeSupplementaryView.h; sourceTree = "<group>"; };
+		345D16F525A0F8630069D074 /* BadgeSupplementaryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadgeSupplementaryView.m; sourceTree = "<group>"; };
+		345D16F925A19A310069D074 /* UICollectionSupplementaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionSupplementaryViewController.h; sourceTree = "<group>"; };
+		345D16FA25A19A310069D074 /* UICollectionSupplementaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionSupplementaryViewController.m; sourceTree = "<group>"; };
 		3490985E256D5E7C00D5D861 /* UICollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34909861256D5E7C00D5D861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34909862256D5E7C00D5D861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,8 +96,12 @@
 				F2C10BEB2591C7150062CF86 /* UICollectionTwoColumnViewController.m */,
 				F2C10BEF259309CD0062CF86 /* UICollectionDistinctLayoutsViewController.h */,
 				F2C10BF0259309CD0062CF86 /* UICollectionDistinctLayoutsViewController.m */,
+				345D16F925A19A310069D074 /* UICollectionSupplementaryViewController.h */,
+				345D16FA25A19A310069D074 /* UICollectionSupplementaryViewController.m */,
 				F2C10BE52591A6390062CF86 /* TextCollectionViewCell.h */,
 				F2C10BE62591A6390062CF86 /* TextCollectionViewCell.m */,
+				345D16F425A0F8630069D074 /* BadgeSupplementaryView.h */,
+				345D16F525A0F8630069D074 /* BadgeSupplementaryView.m */,
 				3490986A256D5E7C00D5D861 /* Main.storyboard */,
 				3490986D256D5E8000D5D861 /* Assets.xcassets */,
 				3490986F256D5E8000D5D861 /* LaunchScreen.storyboard */,
@@ -174,10 +184,12 @@
 				F2C10BEC2591C7150062CF86 /* UICollectionTwoColumnViewController.m in Sources */,
 				34909869256D5E7C00D5D861 /* ViewController.m in Sources */,
 				F2C10BE72591A6390062CF86 /* TextCollectionViewCell.m in Sources */,
+				345D16F625A0F8630069D074 /* BadgeSupplementaryView.m in Sources */,
 				F2C10BF1259309CD0062CF86 /* UICollectionDistinctLayoutsViewController.m in Sources */,
 				34909863256D5E7C00D5D861 /* AppDelegate.m in Sources */,
 				34909874256D5E8000D5D861 /* main.m in Sources */,
 				34909866256D5E7C00D5D861 /* SceneDelegate.m in Sources */,
+				345D16FB25A19A310069D074 /* UICollectionSupplementaryViewController.m in Sources */,
 				F2A40961258F7F8100A071DC /* UICollectionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

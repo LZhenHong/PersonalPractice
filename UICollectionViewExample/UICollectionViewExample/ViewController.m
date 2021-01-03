@@ -10,6 +10,7 @@
 #import "UICollectionGridViewController.h"
 #import "UICollectionTwoColumnViewController.h"
 #import "UICollectionDistinctLayoutsViewController.h"
+#import "UICollectionSupplementaryViewController.h"
 
 @interface ViewController () <UICollectionViewDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -26,7 +27,8 @@
             [UICollectionTableViewController class],
             [UICollectionGridViewController class],
             [UICollectionTwoColumnViewController class],
-            [UICollectionDistinctLayoutsViewController class]
+            [UICollectionDistinctLayoutsViewController class],
+            [UICollectionSupplementaryViewController class]
         ];
     }
     return _collectionExampleControllerClasses;
