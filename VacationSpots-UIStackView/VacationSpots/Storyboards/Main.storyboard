@@ -197,27 +197,27 @@
                                                 <color key="textColor" red="1" green="0.70588235294117641" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="UhH-uH-dtc">
-                                                <rect key="frame" x="0.0" y="239.5" width="375" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UhH-uH-dtc">
+                                                <rect key="frame" x="20" y="239.5" width="335" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Tq-gH0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="193" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Tq-gH0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="129.5" height="30"/>
                                                         <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Submit Rating"/>
                                                         <connections>
                                                             <segue destination="jVC-OA-UjZ" kind="presentation" identifier="presentRatingViewController" id="SLo-S6-7ry"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-7c-5ID">
-                                                        <rect key="frame" x="217" y="0.0" width="67" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-7c-5ID">
+                                                        <rect key="frame" x="139.5" y="0.0" width="89.5" height="30"/>
                                                         <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="View Map"/>
                                                         <connections>
                                                             <segue destination="VRq-Jg-dcB" kind="presentation" identifier="presentMapViewController" id="s0s-Ck-VQG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-xq-log">
-                                                        <rect key="frame" x="308" y="0.0" width="67" height="30"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-xq-log">
+                                                        <rect key="frame" x="239" y="0.0" width="96" height="30"/>
                                                         <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Wikipedia"/>
                                                         <connections>
@@ -232,7 +232,7 @@
                                             <constraint firstItem="qyy-tr-bB0" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="1Yf-kz-HHG"/>
                                             <constraint firstItem="7I7-MX-xvN" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="6DX-vp-Rpp"/>
                                             <constraint firstItem="JGt-cb-Lyg" firstAttribute="top" secondItem="7I7-MX-xvN" secondAttribute="bottom" constant="20" id="8fi-GP-8t0"/>
-                                            <constraint firstItem="UhH-uH-dtc" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leading" id="99q-Aj-hY7"/>
+                                            <constraint firstItem="UhH-uH-dtc" firstAttribute="leading" secondItem="qyy-tr-bB0" secondAttribute="leading" id="99q-Aj-hY7"/>
                                             <constraint firstItem="rai-yh-ty5" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="B4B-Jb-Vyn"/>
                                             <constraint firstItem="qyy-tr-bB0" firstAttribute="baseline" secondItem="TxW-cB-BwZ" secondAttribute="baseline" id="GHg-bS-Avi"/>
                                             <constraint firstItem="UhH-uH-dtc" firstAttribute="top" secondItem="qyy-tr-bB0" secondAttribute="bottom" constant="20" id="LQy-HX-xxG"/>
@@ -249,7 +249,7 @@
                                             <constraint firstItem="rai-yh-ty5" firstAttribute="top" secondItem="yK3-Tf-1ae" secondAttribute="bottom" id="rDC-tO-Cb1"/>
                                             <constraint firstItem="Ktb-bF-Vf4" firstAttribute="leading" secondItem="JGt-cb-Lyg" secondAttribute="trailing" constant="8" id="rYc-lx-bU0"/>
                                             <constraint firstItem="ORI-tY-KjD" firstAttribute="top" secondItem="3eM-SJ-893" secondAttribute="topMargin" id="s7N-jW-JNq"/>
-                                            <constraint firstAttribute="trailing" secondItem="UhH-uH-dtc" secondAttribute="trailing" id="u3h-7F-JhL"/>
+                                            <constraint firstItem="rai-yh-ty5" firstAttribute="trailing" secondItem="UhH-uH-dtc" secondAttribute="trailing" id="u3h-7F-JhL"/>
                                             <constraint firstItem="ORI-tY-KjD" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="vIA-Lk-V7S"/>
                                             <constraint firstItem="h9g-1Y-kSS" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="vuk-ae-7it"/>
                                             <constraint firstItem="h9g-1Y-kSS" firstAttribute="top" secondItem="JGt-cb-Lyg" secondAttribute="bottom" id="whV-fK-0xd"/>
