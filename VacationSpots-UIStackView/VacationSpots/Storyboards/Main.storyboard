@@ -131,129 +131,141 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-SJ-893">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="269.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="290.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY VISIT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORI-tY-KjD">
-                                                <rect key="frame" x="20" y="20" width="81.5" height="19.5"/>
-                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;whyVisitLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7I7-MX-xvN">
-                                                <rect key="frame" x="20" y="39.5" width="335" height="20.5"/>
-                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WEATHER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGt-cb-Lyg">
-                                                <rect key="frame" x="20" y="80" width="76" height="19.5"/>
-                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;weatherInfoLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9g-1Y-kSS">
-                                                <rect key="frame" x="20" y="99.5" width="335" height="20.5"/>
-                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qGX-nB-3AC">
+                                                <rect key="frame" x="20" y="20" width="335" height="250.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xzW-TF-sC7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY VISIT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORI-tY-KjD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="19.5"/>
+                                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;whyVisitLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7I7-MX-xvN">
+                                                                <rect key="frame" x="0.0" y="19.5" width="335" height="20.5"/>
+                                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ofP-8p-mGV">
+                                                        <rect key="frame" x="0.0" y="60" width="335" height="40"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT TO SEE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yK3-Tf-1ae">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="19.5"/>
+                                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;whatToSeeLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rai-yh-ty5">
+                                                                <rect key="frame" x="0.0" y="19.5" width="335" height="20.5"/>
+                                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sSL-83-ZgI">
+                                                        <rect key="frame" x="0.0" y="120" width="335" height="40"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="73w-f2-Ido">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="19.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WEATHER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGt-cb-Lyg">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="76" height="19.5"/>
+                                                                        <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;weatherInfoLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9g-1Y-kSS">
+                                                                <rect key="frame" x="0.0" y="19.5" width="335" height="20.5"/>
+                                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8By-Ay-TwN">
+                                                        <rect key="frame" x="0.0" y="180" width="335" height="20.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="RATING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyy-tr-bB0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="20.5"/>
+                                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="★★★★★" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxW-cB-BwZ">
+                                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="20.5"/>
+                                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                                <color key="textColor" red="1" green="0.70588235294117641" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UhH-uH-dtc">
+                                                        <rect key="frame" x="0.0" y="220.5" width="335" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Tq-gH0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="129.5" height="30"/>
+                                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <state key="normal" title="Submit Rating"/>
+                                                                <connections>
+                                                                    <segue destination="jVC-OA-UjZ" kind="presentation" identifier="presentRatingViewController" id="SLo-S6-7ry"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-7c-5ID">
+                                                                <rect key="frame" x="139.5" y="0.0" width="89.5" height="30"/>
+                                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <state key="normal" title="View Map"/>
+                                                                <connections>
+                                                                    <segue destination="VRq-Jg-dcB" kind="presentation" identifier="presentMapViewController" id="s0s-Ck-VQG"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-xq-log">
+                                                                <rect key="frame" x="239" y="0.0" width="96" height="30"/>
+                                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <state key="normal" title="Wikipedia"/>
+                                                                <connections>
+                                                                    <action selector="wikipediaButtonTapped:" destination="uIW-zp-txd" eventType="touchUpInside" id="mzD-MZ-4c7"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <variation key="heightClass=compact" spacing="10"/>
+                                            </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ktb-bF-Vf4">
-                                                <rect key="frame" x="104" y="74.5" width="32" height="30"/>
+                                                <rect key="frame" x="104" y="134.5" width="32" height="30"/>
                                                 <color key="backgroundColor" red="1" green="0.75174825170000004" blue="0.51748251749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Hide"/>
                                                 <connections>
                                                     <action selector="weatherHideOrShowButtonTapped:" destination="uIW-zp-txd" eventType="touchUpInside" id="ddy-y0-jmP"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT TO SEE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yK3-Tf-1ae">
-                                                <rect key="frame" x="20" y="140" width="105.5" height="19.5"/>
-                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="&lt;whatToSeeLabel&gt;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rai-yh-ty5">
-                                                <rect key="frame" x="20" y="159.5" width="335" height="20.5"/>
-                                                <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <color key="textColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="RATING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyy-tr-bB0">
-                                                <rect key="frame" x="20" y="200" width="58" height="19.5"/>
-                                                <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="★★★★★" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxW-cB-BwZ">
-                                                <rect key="frame" x="86" y="199" width="84.5" height="20.5"/>
-                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <color key="textColor" red="1" green="0.70588235294117641" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UhH-uH-dtc">
-                                                <rect key="frame" x="20" y="239.5" width="335" height="30"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Tq-gH0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="129.5" height="30"/>
-                                                        <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Submit Rating"/>
-                                                        <connections>
-                                                            <segue destination="jVC-OA-UjZ" kind="presentation" identifier="presentRatingViewController" id="SLo-S6-7ry"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-7c-5ID">
-                                                        <rect key="frame" x="139.5" y="0.0" width="89.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.58881118880000005" green="1" blue="0.58881118880000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="View Map"/>
-                                                        <connections>
-                                                            <segue destination="VRq-Jg-dcB" kind="presentation" identifier="presentMapViewController" id="s0s-Ck-VQG"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-xq-log">
-                                                        <rect key="frame" x="239" y="0.0" width="96" height="30"/>
-                                                        <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Wikipedia"/>
-                                                        <connections>
-                                                            <action selector="wikipediaButtonTapped:" destination="uIW-zp-txd" eventType="touchUpInside" id="mzD-MZ-4c7"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="qyy-tr-bB0" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="1Yf-kz-HHG"/>
-                                            <constraint firstItem="7I7-MX-xvN" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="6DX-vp-Rpp"/>
-                                            <constraint firstItem="JGt-cb-Lyg" firstAttribute="top" secondItem="7I7-MX-xvN" secondAttribute="bottom" constant="20" id="8fi-GP-8t0"/>
-                                            <constraint firstItem="UhH-uH-dtc" firstAttribute="leading" secondItem="qyy-tr-bB0" secondAttribute="leading" id="99q-Aj-hY7"/>
-                                            <constraint firstItem="rai-yh-ty5" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="B4B-Jb-Vyn"/>
-                                            <constraint firstItem="qyy-tr-bB0" firstAttribute="baseline" secondItem="TxW-cB-BwZ" secondAttribute="baseline" id="GHg-bS-Avi"/>
-                                            <constraint firstItem="UhH-uH-dtc" firstAttribute="top" secondItem="qyy-tr-bB0" secondAttribute="bottom" constant="20" id="LQy-HX-xxG"/>
-                                            <constraint firstItem="7I7-MX-xvN" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="Npa-Bu-92G"/>
-                                            <constraint firstItem="TxW-cB-BwZ" firstAttribute="leading" secondItem="qyy-tr-bB0" secondAttribute="trailing" constant="8" id="XzZ-pq-lMh"/>
-                                            <constraint firstItem="yK3-Tf-1ae" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="Y1U-qR-6ED"/>
-                                            <constraint firstItem="h9g-1Y-kSS" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="aCJ-Nb-ikH"/>
-                                            <constraint firstAttribute="bottom" secondItem="UhH-uH-dtc" secondAttribute="bottom" id="d3h-pW-jll"/>
-                                            <constraint firstItem="7I7-MX-xvN" firstAttribute="top" secondItem="ORI-tY-KjD" secondAttribute="bottom" id="dMI-1H-pCo"/>
-                                            <constraint firstItem="qyy-tr-bB0" firstAttribute="top" secondItem="rai-yh-ty5" secondAttribute="bottom" constant="20" id="gVu-xs-edP"/>
-                                            <constraint firstItem="yK3-Tf-1ae" firstAttribute="top" secondItem="h9g-1Y-kSS" secondAttribute="bottom" constant="20" id="kbL-i7-Kie"/>
-                                            <constraint firstItem="Ktb-bF-Vf4" firstAttribute="baseline" secondItem="JGt-cb-Lyg" secondAttribute="baseline" id="lf5-Vf-waJ"/>
-                                            <constraint firstItem="rai-yh-ty5" firstAttribute="trailing" secondItem="3eM-SJ-893" secondAttribute="trailingMargin" id="phi-hL-7nR"/>
-                                            <constraint firstItem="rai-yh-ty5" firstAttribute="top" secondItem="yK3-Tf-1ae" secondAttribute="bottom" id="rDC-tO-Cb1"/>
-                                            <constraint firstItem="Ktb-bF-Vf4" firstAttribute="leading" secondItem="JGt-cb-Lyg" secondAttribute="trailing" constant="8" id="rYc-lx-bU0"/>
-                                            <constraint firstItem="ORI-tY-KjD" firstAttribute="top" secondItem="3eM-SJ-893" secondAttribute="topMargin" id="s7N-jW-JNq"/>
-                                            <constraint firstItem="rai-yh-ty5" firstAttribute="trailing" secondItem="UhH-uH-dtc" secondAttribute="trailing" id="u3h-7F-JhL"/>
-                                            <constraint firstItem="ORI-tY-KjD" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="vIA-Lk-V7S"/>
-                                            <constraint firstItem="h9g-1Y-kSS" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="vuk-ae-7it"/>
-                                            <constraint firstItem="h9g-1Y-kSS" firstAttribute="top" secondItem="JGt-cb-Lyg" secondAttribute="bottom" id="whV-fK-0xd"/>
-                                            <constraint firstItem="JGt-cb-Lyg" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="xcv-Xk-05U"/>
+                                            <constraint firstItem="JGt-cb-Lyg" firstAttribute="firstBaseline" secondItem="Ktb-bF-Vf4" secondAttribute="firstBaseline" id="7FR-T1-sv5"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="qGX-nB-3AC" secondAttribute="trailing" id="QXr-ic-SVA"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="qGX-nB-3AC" secondAttribute="bottom" id="QzW-3m-41s"/>
+                                            <constraint firstItem="Ktb-bF-Vf4" firstAttribute="leading" secondItem="JGt-cb-Lyg" secondAttribute="trailing" constant="8" symbolic="YES" id="Vwe-0O-xuR"/>
+                                            <constraint firstItem="qGX-nB-3AC" firstAttribute="leading" secondItem="3eM-SJ-893" secondAttribute="leadingMargin" id="rOR-W1-3Le"/>
+                                            <constraint firstItem="qGX-nB-3AC" firstAttribute="top" secondItem="3eM-SJ-893" secondAttribute="topMargin" id="wXe-pd-Ln8"/>
                                         </constraints>
                                         <edgeInsets key="layoutMargins" top="20" left="20" bottom="20" right="20"/>
                                     </view>
@@ -282,22 +294,22 @@
                         <outlet property="weatherInfoLabel" destination="h9g-1Y-kSS" id="XZp-M1-3Je"/>
                         <outlet property="whatToSeeLabel" destination="rai-yh-ty5" id="d1l-I7-evK"/>
                         <outlet property="whyVisitLabel" destination="7I7-MX-xvN" id="iou-lW-QOV"/>
-                        <outletCollection property="backgroundColoredViews" destination="TxW-cB-BwZ" collectionClass="NSMutableArray" id="nbg-lc-NOw"/>
                         <outletCollection property="backgroundColoredViews" destination="Ktb-bF-Vf4" collectionClass="NSMutableArray" id="Myf-ft-dh5"/>
-                        <outletCollection property="backgroundColoredViews" destination="7I7-MX-xvN" collectionClass="NSMutableArray" id="CKu-14-oWM"/>
-                        <outletCollection property="backgroundColoredViews" destination="yK3-Tf-1ae" collectionClass="NSMutableArray" id="zun-a6-EPP"/>
                         <outletCollection property="backgroundColoredViews" destination="ORI-tY-KjD" collectionClass="NSMutableArray" id="KED-Zr-uL7"/>
-                        <outletCollection property="backgroundColoredViews" destination="JGt-cb-Lyg" collectionClass="NSMutableArray" id="ODB-Zm-F42"/>
-                        <outletCollection property="backgroundColoredViews" destination="h9g-1Y-kSS" collectionClass="NSMutableArray" id="UEm-HF-9YW"/>
-                        <outletCollection property="backgroundColoredViews" destination="qyy-tr-bB0" collectionClass="NSMutableArray" id="VeD-Fq-EhT"/>
-                        <outletCollection property="backgroundColoredViews" destination="rai-yh-ty5" collectionClass="NSMutableArray" id="iuZ-J8-iw1"/>
                         <outletCollection property="headingLabels" destination="ORI-tY-KjD" collectionClass="NSMutableArray" id="oTB-Qc-s1y"/>
+                        <outletCollection property="backgroundColoredViews" destination="7I7-MX-xvN" collectionClass="NSMutableArray" id="CKu-14-oWM"/>
+                        <outletCollection property="backgroundColoredViews" destination="h9g-1Y-kSS" collectionClass="NSMutableArray" id="UEm-HF-9YW"/>
                         <outletCollection property="headingLabels" destination="JGt-cb-Lyg" collectionClass="NSMutableArray" id="qSs-f9-qyA"/>
+                        <outletCollection property="backgroundColoredViews" destination="JGt-cb-Lyg" collectionClass="NSMutableArray" id="ODB-Zm-F42"/>
+                        <outletCollection property="backgroundColoredViews" destination="yK3-Tf-1ae" collectionClass="NSMutableArray" id="zun-a6-EPP"/>
+                        <outletCollection property="backgroundColoredViews" destination="rai-yh-ty5" collectionClass="NSMutableArray" id="iuZ-J8-iw1"/>
                         <outletCollection property="headingLabels" destination="yK3-Tf-1ae" collectionClass="NSMutableArray" id="StY-8R-cx1"/>
+                        <outletCollection property="backgroundColoredViews" destination="TxW-cB-BwZ" collectionClass="NSMutableArray" id="nbg-lc-NOw"/>
+                        <outletCollection property="backgroundColoredViews" destination="qyy-tr-bB0" collectionClass="NSMutableArray" id="VeD-Fq-EhT"/>
                         <outletCollection property="headingLabels" destination="qyy-tr-bB0" collectionClass="NSMutableArray" id="6Yy-aX-Mjj"/>
+                        <outletCollection property="backgroundColoredViews" destination="k0z-xq-log" collectionClass="NSMutableArray" id="hIZ-a4-YDg"/>
                         <outletCollection property="backgroundColoredViews" destination="vi1-Tq-gH0" collectionClass="NSMutableArray" id="dJY-4L-AQm"/>
                         <outletCollection property="backgroundColoredViews" destination="GPk-7c-5ID" collectionClass="NSMutableArray" id="FiJ-V6-vWs"/>
-                        <outletCollection property="backgroundColoredViews" destination="k0z-xq-log" collectionClass="NSMutableArray" id="hIZ-a4-YDg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2p-XL-PCg" userLabel="First Responder" sceneMemberID="firstResponder"/>

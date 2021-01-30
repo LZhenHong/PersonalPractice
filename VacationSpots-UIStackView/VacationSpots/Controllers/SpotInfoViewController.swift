@@ -92,9 +92,16 @@ class SpotInfoViewController: UIViewController {
   
   func updateWeatherInfoViews(hideWeatherInfo shouldHideWeatherInfo: Bool, animated: Bool) {
     let newButtonTitle = shouldHideWeatherInfo ? "Show" : "Hide"
-    weatherHideOrShowButton.setTitle(newButtonTitle, for: .normal)
     
-    weatherInfoLabel.isHidden = shouldHideWeatherInfo
+    if animated {
+      UIView.animate(withDuration: 0.3) {
+        self.weatherHideOrShowButton.setTitle(newButtonTitle, for: .normal)
+        self.weatherInfoLabel.isHidden = shouldHideWeatherInfo
+      }
+    } else {
+      weatherHideOrShowButton.setTitle(newButtonTitle, for: .normal)
+      weatherInfoLabel.isHidden = shouldHideWeatherInfo
+    }
   }
   
   @IBAction func wikipediaButtonTapped(_ sender: UIButton) {
