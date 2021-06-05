@@ -1,0 +1,20 @@
+PODS:
+  - LinqToObjectiveC (2.1.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - LinqToObjectiveC
+  - ReactiveObjC
+
+SPEC REPOS:
+  trunk:
+    - LinqToObjectiveC
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  LinqToObjectiveC: f0e40c137a458b6b9725c4c7b6a575c0c72e3aec
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 954a056b5df5c1ca9466be6b81a1542a428e1341
+
+COCOAPODS: 1.10.1
